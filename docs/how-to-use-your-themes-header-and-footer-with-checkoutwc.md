@@ -4,22 +4,27 @@ slug: how-to-use-your-themes-header-and-footer-with-checkoutwc
 cats: How To
 ---
 
-<div> We don't load the theme's header and footer for a couple of important reasons:   
-</div>1. The typical site header includes lot of links, menus, and other things that can be distracting and lower conversions. We designed the checkout page to feel like a separate area of the site, intended for some thing: purchasing
+We don't load the theme's header and footer for a couple of important reasons:
+
+1. The typical site header includes lot of links, menus, and other things that can be distracting and lower conversions. We designed the checkout page to feel like a separate area of the site, intended for some thing: purchasing
 2. Loading the theme header and footer requires loading theme styles, which increases the risk of conflicts.
 
 Using Your Theme's Header and Footer
 ------------------------------------
 
-<div> If you would like to customize CheckoutWC to use your theme's footer and header you have four options. </div>### Option 1) Elementor Pro
+If you would like to customize CheckoutWC to use your theme's footer and header you have four options.
+### Option 1) Elementor Pro
 
  If you're an Elementor Pro user, you're in luck! Simple head to **Settings** &gt; **Integrations** and click the checkbox next to 'Enable Elementor Pro support.'
 
  ![](https://s3.amazonaws.com/helpscout.net/docs/assets/5bdde2822c7d3a01757ac42e/images/5e90bfae2c7d3a7e9aeac421/file-geBMgYhdnf.png)
 
-<div> When this setting is enabled, we'll pull in the header and footer you have configured with Elementor Pro. </div><div> You'll need to configure the display options to have it show up either Site Wide or on the checkout page specifically. These settings are displayed when saving a the module: </div><div> ![](https://s3.amazonaws.com/helpscout.net/docs/assets/5bdde2822c7d3a01757ac42e/images/5ee8d05b04286306f8053b21/file-PJrJvWV68R.jpg)
+When this setting is enabled, we'll pull in the header and footer you have configured with Elementor Pro.
+You'll need to configure the display options to have it show up either Site Wide or on the checkout page specifically. These settings are displayed when saving a the module:
+![](https://s3.amazonaws.com/helpscout.net/docs/assets/5bdde2822c7d3a01757ac42e/images/5ee8d05b04286306f8053b21/file-PJrJvWV68R.jpg)
 
-</div>### Option 2) Beaver Theme
+
+### Option 2) Beaver Theme
 
  If you're using Beaver Builder and have their Beaver Themer add-on, you can configure a header and footer module and set it to display on the checkout page. You'll need to activate the Beaver Themer integration:
 
@@ -39,7 +44,9 @@ Using Your Theme's Header and Footer
 
 ### Option 4) Custom coding
 
-<div> Option 4 is a little less straightforward, but if you are a developer (or have access to a developer), you should be able to do it without too much pain. </div><div> There are two main strategies: </div>1. Use action hooks
+Option 4 is a little less straightforward, but if you are a developer (or have access to a developer), you should be able to do it without too much pain.
+There are two main strategies:
+1. Use action hooks
 2. Create a custom template
 
  We recommend using the action hook strategy wherever possible.

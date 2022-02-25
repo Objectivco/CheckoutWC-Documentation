@@ -42,7 +42,7 @@ cats: Developers
 
 ### do\_action('cfw\_checkout\_before\_customer\_info\_tab');
 
- Called at the top of the customer information tab, after the opening &lt;div&gt; tag and before all content.
+Called at the top of the customer information tab, after the opening &lt;div&gt; tag and before all content.
 
 do\_action('cfw\_checkout\_after\_login');
 ------------------------------------------

@@ -4,7 +4,7 @@ slug: change-log
 cats: Developers
 ---
 
-<div>**Version 6.2.4 - 2022.02.11**
+**Version 6.2.4 - 2022.02.11**
 
 - Fix - Fix JS error when country field is not present.
 - Fix - Fix issue with payment gateway change handlers that was causing an infinite AJAX refresh
@@ -35,7 +35,7 @@ cats: Developers
 - Fix - Fix bug with Metro theme.
 - Fix - Fixed bug where upsells were not discounted properly after being added to the cart.
 - Fix - Fix bug where the city field was not validated if it was rendered off screen.
- 
+
  **Version 6.2.2 - 2021.12.18**
 
  **'Tis the season to be conservative about plugin updates!** 🎄 If your store is humming along through the holiday rush, *you may want to wait a few weeks on this update.* But if you like the gifts below, receive them with our blessing. (After careful testing!)
@@ -45,7 +45,7 @@ cats: Developers
 - Fix - Fix JS error when address autocomplete is enabled but there are no address fields.
 - Fix - Debounce scrolling to alerts.
 - Improved - Refactored AJAX actions to use super.error() method and cleaned up unused properties/getters/setters.
- 
+
  **Version 6.2.0/6.2.1 - 2021.12.13**
 
  **'Tis the season to be conservative about plugin updates!** 🎄 If your store is humming along through the holiday rush, *you may want to wait a few weeks on this update.* But if you like the gifts below, receive them with our blessing. (After careful testing!)
@@ -76,7 +76,7 @@ cats: Developers
 - Fix - Fix bug where quantity of side cart button did not update when cart updated.
 - Fix - Fix potential error if first gateway in session is null
 - Fix - Fix bug with WooCommerce Memberships that caused AJAX calls to fail when restriction mode was set to redirect.
- 
+
  **Version 6.1.7 - 2021.11.19**
 
 - New - Added support for Free Gifts for WooCommerce
@@ -86,7 +86,7 @@ cats: Developers
 - Fix - Fix bug where invalid post codes did not generate an error message
 - Fix - Fix bug where null cart item data was still displayed on checkout page.
 - Fix - Fix bugs with UK addresses and SmartyStreets
- 
+
  **Version 6.1.6 - 2021.11.10**
 
 - New - Added preliminary support for WooCommerce EU VAT Assistant.
@@ -94,13 +94,13 @@ cats: Developers
 - Fix - Regenerated stale MO files for de\_DE and de\_DE\_formal translations. *Der Fehler tut uns leid!*
 - Fix - Fix missing filter that caused WooCommerce Product Bundles component items to be listed on the thank you page in conflict with the product page settings.
 - Misc - Update WooCommerce tested version to 5.9.0
- 
+
  **Version 6.1.5 - 2021.11.8**
 
 - Improved - Added filter to control whether side cart items link to the product page. Filter: cfw\_side\_cart\_link\_item
 - Fix - Fix bug where solid side cart icons fill color was set to none.
 - Fix - Make sure elements with cfw-side-cart-open-trigger class have pointer cursor.
- 
+
  **Version 6.1.4 - 2021.11.5**
 
 - New - New side cart setting to hide floating side cart button when cart is empty.
@@ -113,11 +113,11 @@ cats: Developers
 - Fix - Fix bug where HTML tags ended up in field placeholders.
 - If a label has an HTML tag present in it, display it as a conventional, non-floating label.
 - Fix - Fix issue with UpSolution Core plugin by preventing it from loading styles on the checkout page.
- 
+
  **Version 6.1.3 - 2021.11.2**
 
 - Hotfix - Fix bug that caused side cart links to open in a new tab/window.
- 
+
  **Version 6.1.2 - 2021.11.2**
 
 - Improved - Side Cart item titles and images now link to the product page.
@@ -130,11 +130,11 @@ cats: Developers
 - Fix - Fix issue with Side Cart where inclusive taxes (VAT) was not handled properly when calculating the free shipping amount remaining.
 - Fix - Fix issue where stat collector only sent 6 days of stats instead of 7.
 - Fix - Fix issue where stat collector sent staging site stats.
- 
+
  **Version 6.1.1 - 2021.10.27**
 
 - Fix - Fix styling issue with secondary buttons such as the apply coupon button.
- 
+
  **Version 6.1.0 - 2021.10.27**
 
 - New - Added icon picker to Side Cart options!
@@ -151,14 +151,14 @@ cats: Developers
 - Fix - Fix JS error with state not being a part of locale object.
 - Fix - Fix left over var\_dump in UpdatesManager.
 - Fix - Fix subtle styling bug with accordions that has been lurking forever.
- 
+
  **Version 6.0.7 - 2021.10.22**
 
 - Improved - Added filters to WooCommerce Gift Cards output to allow heading, label, and placeholder to be changed.
 - Fix - Disable JS that smoothly resized country, postcode, and state fields when switching countries because it's causing major the mobile view to zoom in and zoom out during refreshes on some sites.
 - Fix - Account exists check was firing even when email field was empty.
 - Fix - Fix issue where turning off checkout cart editing feature turned off the ability to change quantities or remove items on the side cart.
- 
+
  **Version 6.0.6 - 2021.10.21**
 
 - New - Added Romanian translations
@@ -171,7 +171,7 @@ cats: Developers
 - Fix - de\_DE\_formal is now a separate locale from de\_DE. Thanks, Jörg!
 - Fix - Free Shipping progress bar now shows decimal values when necessary.
 - Fix - Fix more CSS conflicts with Side Cart and random themes and plugins
- 
+
  **Version 6.0.5 - 2021.10.16**
 
 - Improved - Implement woocommerce\_cart\_item\_class so that plugins that need it can use it.
@@ -187,11 +187,11 @@ cats: Developers
 - Fix - Make primary action button on mobile 100% width and place it before the secondary action (such as 'Return to shipping method')
 - Fix - Fix issue where place order button was not 100% width on mobile.
 - Fix - Fix styling of breadcrumbs on Futurist template.
- 
+
  **Version 6.0.4 - 2021.10.13**
 
 - Hotfix - Remove PHP 7.4 only code that causes fatal errors on older servers.
- 
+
  **Version 6.0.3 - 2021.10.12**
 
 - Improved - Forcefully re-enable cart fragment system when side cart is active.
@@ -207,7 +207,7 @@ cats: Developers
 - Fix - Fix esoteric bug with Resurs Bank gateway.
 - Fix - Fix admin label for Side Cart 'Free Shipping Message'
 - Fix - Use native WooCommerce unknown error message when gateway returns failure with no error messages.
- 
+
  **Version 6.0.2 - 2021.10.11**
 
 - Fix - Fix translation of continue shopping button
@@ -217,12 +217,12 @@ cats: Developers
 - Fix - Stop Storefront theme from adding animation spinner to side cart update blockUI styling
 - Fix - Fix issue with Futurist template breadcrumbs wrapping
 - Fix - Fix issue where Futurist breadcrumb accents where missing
- 
+
  **Version 6.0.1 - 2021.10.08**
 
 - Improved - Add a separate setting for the background color of the free shipping progress bar.
 - Fix - Fix issues with Side Cart and glass theme.
- 
+
  **Version 6.0.0 - 2021.10.08**
 
 - NEW! Side Cart is here and it's beautiful and lightning fast. Adding items to the cart opens a flyout cart from the right side of the screen that perfectly matches the cart experience on the checkout page and includes extras like a free shipping progress bar. This feature is available to all Pro plan and above subscribers.[ You can see a demo here.](https://demo2.checkoutwc.com)
@@ -231,32 +231,32 @@ cats: Developers
 - Improved - Various performance improvements.
 - Fix - Fixed issue on checkout page where quantity bubble on cart items was cut off.
 - Fix - Lots of other little fixes we found. You know, the real 6.0 release is the commits we made along the way.
- 
+
  **Version 5.3.11 - 2021.10.04**
 
-- Hotfix - Ok, we didn't get that quite right:  
+- Hotfix - Ok, we didn't get that quite right:
      Fix cfw\_get\_shipping\_total()
-    
+
      Essentially invert logic of cfw\_get\_shipping\_total() so that it follows the logic of WooCommerce's cart/cart-shipping.php template by first checking the available methods, and then descending into other checks.
-    
+
      This also requires changing how cfw\_show\_shipping\_total() determines whether to show the shipping total. Since error states are part of the shipping total, those are pushed further down to cfw\_get\_shipping\_total() and instead we only check that we have shipping enabled and that the cart has items.
- 
+
  **Version 5.3.10 - 2021.10.04**
 
 - Fix - Fix bug that caused 'Enter your address to view shipping options' to be displayed when the phone field was empty
 - Improved - Refactor how we handle activation / deactivation routines
- 
+
  **Version 5.3.9 - 2021.09.27**
 
 - Improved - Add skip cart feature in CheckoutWC &gt; Checkout
 - Fix - Fix bug that caused 'Free!' to show up on some orders where a shipping address had not been entered.
 - Fix - Fix bug with SmartyStreets that caused the continue to payment button to be shown when it shouldn't be.
 - Fix - Fix bug with Order Bumps when Offer Product is deleted.
- 
+
  **Version 5.3.8 - 2021.09.16**
 
 - Hotfix - Fix issue with styling of payment methods / billing address accordions on Glass theme
- 
+
  **Version 5.3.7 - 2021.09.15**
 
 - New - Bumped minimum PHP version to 7.1 since one of our existing dependencies already required PHP 7.1, setting an implicit minimum version.
@@ -274,7 +274,7 @@ cats: Developers
 - Improved - Added filter for disabling existing account lookup by email: cfw\_enable\_account\_exists\_check
 - Improved - Run initial AJAX update on page load faster (same speed as WooCommerce native checkout page)
 - Improved - Added filter for determining when an order bump displays: cfw\_display\_bump
- 
+
  **Version 5.3.6 - 2021.09.03**
 
 - Improved - Tightened up timing of first AJAX refresh on checkout page to match core WooCommerce.
@@ -289,17 +289,17 @@ cats: Developers
 - Fix - Fix duplicated checkboxes with latest Klaviyo plugin update. **(Please update Klaviyo after installing this release)**
 - Tweak - Slightly changed output position of Klaviyo checkboxes.
 - Tweak - Added $mobile boolean variable to cfw\_before\_coupon\_module action
- 
+
  **Version 5.3.5 - 2021.08.20**
 
 - Improved - Support WooCommerce 5.6.0 built in support for Shipping Phone field.
 - Improved - Add compatibility for WooCommerce Gift Cards coupon input add-on plugin
 - Improved - Switch Amazon Pay logo to SVG for vector retina rendering goodness.
- 
+
  **Version 5.3.4 - 2021.08.04**
 
 - Fix - Fix express checkout button rendering for WooCommerce payments.
- 
+
  **Version 5.3.3 - 2021.08.04**
 
 - Improved - Beta Support for WooCommerce Payments express checkout buttons. This is largely untested due to the difficult of testing WooCommerce Payments in a dev environment. Please let us know if it works for you.
@@ -310,7 +310,7 @@ cats: Developers
 - Fix - Shore up order submission JS to match WooCommerce core more closely
 - Fix - Make sure wc\_checkout\_params.checkout\_url is the right AJAX submission endpoint on our checkout page
 - Fix - Fix issue with YITH points and Rewards notice not appearing
- 
+
  **Version 5.3.2 - 2021.07.21**
 
 - New - Futurist theme now has full access to breadcrumb color settings
@@ -319,13 +319,13 @@ cats: Developers
 - Fix - Fix issue with location of cfw\_before\_payment\_method\_heading action and fragment updates
 - Fix - Update German translation of promo code
 - Fix - Fix issue with mismatched label and placeholder for fields like post code based on country locale strings from WooCommerce core
- 
+
  **Version 5.3.1 - 2021.07.10**
 
 - Fix - Fix issue where company field didn't trigger a refresh.
 - Fix - Fix cart summary mobile background color with new settings scheme. Added a new Cart Summary Mobile Background Color setting
 - Fix - Fix issue where current order status was not reflected when viewing an order if the current status was not set as one of the status progressions in the Thank You Page settings.
- 
+
  **Version 5.3.0 - 2021.07.6**
 
  This is a pretty big release! **As always, we recommend testing on a staging site before updating your live site!**
@@ -355,23 +355,23 @@ cats: Developers
 - Fix - Fix issue where billing\_email didn't match logged in user's email.
 - Fix - Fix mobile styling issue with WooCommerce notices that contain buttons.
 - Fix - Fix issue with Parsley field validation message translation and Weglot.
- 
+
  **Version 5.2.4 - 2021.07.02**
 
 - Hotfix - Fix issue with Avada 7.3.1
- 
+
  **Version 5.2.3 - 2021.06.15**
 
 - Fix - Fix issue with WooCommerce Germanized checkboxes next to the place order button
- 
+
  **Version 5.2.2 - 2021.06.14**
 
 - Hotfix - Fixes for Avada 7.4. [PLEASE READ THIS DOC BEFORE CONTACTING SUPPORT.](https://kb.checkoutwc.com/article/65-avada-template-layout-problems)
- 
+
  **Version 5.2.1 - 2021.06.14**
 
 - Hotfix - Fix output of WooCommerce Germanized checkboxes
- 
+
  **Version 5.2.0 - 2021.06.10**
 
 - New - Order Bumps can now be configured to show if one or more category of products is in the cart!
@@ -384,11 +384,11 @@ cats: Developers
 - Fix - Bumps cannot satisfy the display conditions for other bumps.
 - Fix - Fix compatibility with woocommerce\_checkout\_redirect\_empty\_cart and woocommerce\_checkout\_update\_order\_review\_expired hooks.
 - Fix - Added a workaround for Authorize.net and order review step
- 
+
  **Version 5.1.2 - 2021.06.09**
 
 - Hotfix - Fix issue with Chrome autofilling fields bug and one page checkout setting.
- 
+
  **Version 5.1.1 - 2021.06.08**
 
 - Fix - Fixes for Klaviyo SMS checkbox and disclaimer location
@@ -396,7 +396,7 @@ cats: Developers
 - Fix - Fix issue where express checkout container showed up when no express buttons were present
 - Fix - Fix bug with Chrome autofilling fields on previous steps
 - Fix - Fix admin conflict with Formidable Forms and MapSVG
- 
+
  **Version 5.1.0 - 2021.06.04**
 
 - New! Order Bumps can now be used as Upsells. Check out our documentation here: <https://kb.checkoutwc.com/article/126-order-bumps>
@@ -411,7 +411,7 @@ cats: Developers
 - Fix - Fix JavaScript error in express checkout button check
 - Fix - Fix validation of extra shipping fields where fields don't have labels
 - Fix - Fix styling of select2/selectWoo select fields
- 
+
  **Version 5.0.5 - 2021.05.27**
 
 - Fix - Fix issue with Parsley validation of checkboxes
@@ -423,7 +423,7 @@ cats: Developers
 - Fix - Fix button styling on address verification modal (SmartyStreets)
 - Fix - Billing address is always shown when Brazilian Market on WooCommerce is active.
 - Fix - Fix glitches with payment request buttons container showing up when no buttons were available.
- 
+
  **Version 5.0.4 - 2021.05.20**
 
 - Fix - Fix problem with PayPal for WooCommerce that caused billing address fields to not sync over correctly from logged in session.
@@ -431,7 +431,7 @@ cats: Developers
 - Fix - Fix issue where Trust Badge didn't appear to save unless you added an image
 - Fix - Fix how trust badges lay out on frontend without images
 - Fix - Adjusted priorities of address fields to match core more closely
- 
+
  **Version 5.0.3 - 2021.05.19**
 
 - Fix - Fix bug with one page checkout not firing order submit handlers properly.
@@ -439,7 +439,7 @@ cats: Developers
 - Fix - Fix JS errors with Amazon Pay.
 - Fix - Fix bug with create account checkbox not auto checking.
 - Fix - Fix PHP 8 deprecation notice.
- 
+
  **Version 5.0.2 - 2021.05.18**
 
 - Hotfix: Fix issue where billing address fields weren't synced from shipping address fields.
@@ -449,12 +449,12 @@ cats: Developers
 - Fix: Fix issue with Canada city being filled improperly with Google Address Autocomplete.
 - Fix: Fix issue where Amazon button could render incorrectly for a few seconds.
 - Improved: Added mechanism for custom validation of custom fields with parsley.js
- 
+
  **Version 5.0.1 - 2021.05.18**
 
 - Hotfix: Fix bug where translations did not load
 - Hotfix: Fix bug where Trust Badges settings did not appear to save
- 
+
  **Version 5.0.0 - 2021.05.17**
 
  Major new version! This release comprises over 700 commits - we didn't hold back. We're excited for you to try it, but you should do proper testing before updating. **Before updating your live site, PLEASE TEST ON STAGING.**
@@ -468,7 +468,7 @@ cats: Developers
 - Improved - Support for latest Square gateway express buttons (Apple Pay, Google Pay, etc)
 - Improved - Refactored code base for faster more robust performance
 - Fix - Fix issue with Alabama being selected by default when it shouldn't be
- 
+
  **Version 4.3.8 - 2021.05.11**
 
 - Hotfix: Fix Amazon Pay. Should work with Amazon Pay 1.0 and Amazon Pay 2.0, including both the legacy integration method and the new API. However, the new API is **NOT fully tested** due to the urgent nature of releasing this fix. **We do NOT recommend you reconnect to the Amazon API until you have *FULLY* tested on a staging site.**
@@ -476,22 +476,22 @@ cats: Developers
 - Fix - Fix some styling issues with CommerceKit
 - Improved - Added cfw\_thank\_you\_page\_map\_address filter to allow overriding the map address on the thank you page.
 - Improved - Added symlink for de\_DE\_formal locale to de\_DE.
- 
+
  **Version 4.3.7 - 2021.05.06**
 
 - Fix - Fix how we set language for Google Address Autocomplete
 - Fix - Fix fatal error with old version of Klaviyo by adding version check
- 
+
  **Version 4.3.6 - 2021.05.04**
 
 - Improved - Set language for Google Places library so that autocomplete suggestions are in the correct locale
 - Fix - Fix Klaviyo newsletter checkbox position
 - Fix - Fix issue with WooCommerce Conditional Shipping and Payments notices not being displayed on update\_checkout
- 
+
  **Version 4.3.5 - 2021.04.26**
 
 - Hotfix - Fix invalid reference to settings manager in WooCommerce Germanized compatibility class.
- 
+
  **Version 4.3.4 - 2021.04.26**
 
 - New - Compatibility with Neve theme
@@ -501,25 +501,25 @@ cats: Developers
 - Fix - Parse house number if Google Maps doesn't have address in their DB
 - Fix - Workaround for Dutch addresses and Address Autocomplete to properly map city field
 - Fix - Fix for WooCommerce Germanized terms and conditions and order review step
- 
+
  **Version 4.3.3 - 2021.04.01**
 
 - Fix - Fix PHP 8 warnings / notices.
 - Fix - Fix for Uncode theme
 - Fix - Fixes for Avada 7.3
 - Fix - Fix for Stripe (official) gateway that prevented Apple Pay / Google Pay when phone fields were required.
- 
+
  **Version 4.3.2 - 2021.03.30**
 
 - Fix - Fix bug with WooCommerce Germanized where cart items were not visible
 - Fix - Fix issue with Stripe for WooCommerce and iDEAL that made the bank dropdown not selectable.
 - Fix - Fix PHP 8 warnings.
- 
+
  **Version 4.3.1 - 2021.03.29**
 
 - Hotfix - Fix issue where gateway icons could be way too tall.
 - Hotfix - Fix issue where AJAX requests response was being cached occasionally in Safari.
- 
+
  **Version 4.3.0 - 2021.03.26**
 
 - 🎨 New: During refreshes checkout sections now have a sweet new 'loading shimmer' effect rather than fading out.
@@ -537,7 +537,7 @@ cats: Developers
 - Fix - Fix issue where cart items were being modified during refresh when there were no changes.
 - Fix - Fix bug with custom attributes on fields that caused them to be output improperly.
 - Fix - Fix bug with Free Gifts for WooCommerce that caused items not to show up when cart was modified to satisfy gift conditions.
- 
+
  **Version 4.2.0 - 2021.03.18**
 
 - Improved - Cart updates now happen in normal update\_checkout refresh - saves an extra AJAX call.
@@ -553,10 +553,10 @@ cats: Developers
 - Fix - Fix bugs with Brazilian Market
 - Fix - Fix bug where Smart Coupons 'bounced' multiple times on page load
 - Fix - Fix change how we resolve state with Google Address Autocomplete to handle more countries correctly
- 
+
  **Version 4.1.1 - 2021.03.05**
 
-</div>- New - Bulgarian translations
+- New - Bulgarian translations
 - Fix - Fix potential error in Avada compatibility module
 - Fix - Fix bug with Address Autocomplete that resulted in house\_number showing up in address field 1
 - Fix - Fixes for Brazilian Market (Extra Checkout Fields for Brazil)
@@ -2198,7 +2198,7 @@ cats: Developers
  **Version 2.0.0**
 
 - 📣 Major release! There are potentially some breaking changes here, so please read the release notes thoroughly!
-- 🖼 Multiple templates! In addition to the default template, we have two new templates: 
+- 🖼 Multiple templates! In addition to the default template, we have two new templates:
     - Copify - A theme styled to look as much like Shopify as possible.
     - Futurist - A fresh theme with a slightly different vibe.
     - Midas - The classic, default theme.
@@ -2259,7 +2259,7 @@ cats: Developers
 
  **Version 1.5.0**
 
-- Added support for First Data gateway: 
+- Added support for First Data gateway:
     - Payeezy
     - Payeezy JS
     - Global Gateway
@@ -2293,7 +2293,7 @@ cats: Developers
 - Fixed bug with international addresses.
 - Fixed bug with account exists AJAX check.
 - Moved all AJAX endpoints to wc\_ajax from wp\_ajax. (Related to Jilt fix)
-- Added support for: ✅ 
+- Added support for: ✅
     - Google Analytics Pro
     - Enhanced Ecommerce Google Analytics for WooCommerce
     - WooCommerce Points and Rewards
@@ -2331,7 +2331,7 @@ cats: Developers
  **Version 1.2.0**
 
 - We refactored our submission model to work with more gateways out of the box. 🏗
-- Stripe 4.x gateway support! (Backwards compatible with Stripe 3.x) 💳 
+- Stripe 4.x gateway support! (Backwards compatible with Stripe 3.x) 💳
     - AND! Stripe Checkout (modal)
     - ALSO: Bancontact, SOFORT, Giropay, iDeal, P24, Alipay, SEPA Direct Debit, etc
 - BlueSnap gateway support 💳
