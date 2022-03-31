@@ -4,11 +4,7 @@ slug: how-to-change-continue-shopping-text-on-thank-you-page
 cats: How To
 ---
 
- To change the 'Continue shopping' button text on the thank you page, you can use this simple snippet:
+<p>To change the 'Continue shopping' button text on the thank you page, you can use this simple snippet:</p>
 
-<script src="https://gist.github.com/clifgriffin/9611176378e84618970874481e371af5.js" type="text/javascript"></script> Just add this snippet to **WP Admin &gt; CheckoutWC &gt; Advanced &gt; PHP Snippets**. Or you can add it to your child theme's functions.php file.
+<p>To change the URL of the continue shopping button, you can use this snippet:</p>
 
- To change the URL of the continue shopping button, you can use this snippet:
-
- <script src="https://gist.github.com/clifgriffin/0844958fb81ccb869faccdd69fc435e7.js" type="text/javascript">
-	</script>

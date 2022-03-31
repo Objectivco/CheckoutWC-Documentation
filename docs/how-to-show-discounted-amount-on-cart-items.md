@@ -4,4 +4,4 @@ slug: how-to-show-discounted-amount-on-cart-items
 cats: How To
 ---
 
-You can show
+<p>You can show</p>

@@ -4,132 +4,67 @@ slug: filters
 cats: Developers
 ---
 
-### apply\_filters('cfw\_body\_classes', array('checkout-wc'))
-
- Filter classes on &lt;body&gt; tag. Default: checkout-wc
-
-### apply\_filters('cfw\_get\_shipping\_checkout\_fields', $checkout-&gt;get\_checkout\_fields( 'shipping' ) );
-
- Filters an array of shipping address fields.
-
-### apply\_filters('cfw\_get\_billing\_checkout\_fields', $checkout-&gt;get\_checkout\_fields( 'billing' ) );
-
- Filters an array of billing address fields.
-
-### apply\_filters('cfw\_payment\_gateway\_field\_html\_' . $gateway-&gt;id, $field\_html);
-
- Filter the HTML output of each payment gateway.
-
-### apply\_filters('cfw\_get\_template\_part\_skip\_' . $template\_part, false)
-
- Filter whether the given template is loaded by returning true or false (default).
-
-### apply\_filters('cfw\_show\_shipping\_tab', true)
-
- Filter whether the shipping method tab is displayed. (If the cart does not need shipping, the shipping method tab will never be displayed)
-
-### apply\_filters('cfw\_template\_global\_params', array());
-
- Add additional global parameters to the global template parameters object.
-
-### apply\_filters('cfw\_template\_tab\_container\_el', 'cfw-tab-container');
-
- Filters the main tab container HTML element ID.
-
-### apply\_filters('cfw\_template\_breadcrumb\_id', 'cfw-breadcrumb');
-
- Filters the breadcrumb HTML element ID.
-
-### apply\_filters('cfw\_template\_customer\_info\_el', 'cfw-customer-info');
-
- Filters the customer information tab HTML element ID.
-
-### apply\_filters('cfw\_template\_shipping\_method\_el', 'cfw-shipping-method');
-
- Filters the shipping method tab HTML element ID.
-
-### apply\_filters('cfw\_template\_payment\_method\_el', 'cfw-payment-method');
-
- Filters the payment method tab HTML element ID.
-
-### apply\_filters('cfw\_template\_cart\_el', "cfw-totals-list");
-
- Filters the cart container HTML element ID.
-
-### apply\_filters('cfw\_template\_cart\_subtotal\_el', 'cfw-cart-subtotal');
-
- Filters the cart subtotal HTML element ID.
-
-### apply\_filters('cfw\_template\_cart\_shipping\_el', 'cfw-cart-shipping-total');
-
- Filters the cart shipping HTML element ID.
-
-### apply\_filters('cfw\_template\_cart\_taxes\_el', 'cfw-cart-taxes');
-
- Filters the cart taxes HTML element ID.
-
-### apply\_filters('cfw\_template\_cart\_total\_el','cfw-cart-total');
-
- Filters the cart total HTML element ID.
-
-### apply\_filters('cfw\_template\_cart\_coupons\_el', 'cfw-cart-coupons');
-
- Filters the apply coupon container HTML element ID.
-
-### apply\_filters('cfw\_template\_cart\_review\_bar\_id', 'cfw-cart-details-review-bar');
-
- Filters the cart review bar HTML element ID.
-
-### apply\_filters('cfw\_allowed\_script\_handles', $ignore);
-
- Filters list of allowed script handles. Scripts handles present in this array will be loaded on the checkout page, even if they are in a 3rd party plugin or theme.
-
-### apply\_filters('cfw\_allowed\_style\_handles', $ignore);
-
- Filters list of allowed style handles. Style handles present in this array will be loaded on the checkout page, even if they are in a 3rd party plugin or theme.
-
-### apply\_filters('cfw\_customer\_information\_heading', \_\_( 'Customer information', 'checkout-wc' ) );
-
- Filter the customer information tab heading.
-
-### apply\_filters('cfw\_billing\_address\_heading', esc\_html\_\_( 'Billing address', 'checkout-wc' ) );
-
- Filter the billing address heading.
-
-### apply\_filters('cfw\_shipping\_address\_heading', esc\_html\_\_( 'Shipping address', 'checkout-wc' ) );
-
- Filter the shipping address heading.
-
-### apply\_filters('cfw\_shipping\_method\_heading', esc\_html\_\_( 'Shipping method', 'checkout-wc' ) );
-
- Filter the shipping method heading.
-
-### apply\_filters('cfw\_payment\_method\_heading', esc\_html\_\_('Payment method', 'checkout-wc') );
-
- Filters the payment method heading.
-
-### apply\_filters('cfw\_no\_payment\_required\_text', esc\_html\_\_('Your order is free. No payment is required.', 'checkout-wc') );
-
- Filters the no payment required text for free orders.
-
-### apply\_filters('cfw\_link\_cart\_items', \_\_return\_false() )
-
- Filters whether cart items are linked to their respective products on the checkout page. Default is to not link cart items. Return true to link them.
-
-### apply\_filters('cfw\_should\_load\_template\_functions', true)
-
- Turn off checkout template's functions.php file.
-
-### apply\_filters('cfw\_typescript\_compatibility\_classes\_and\_params', \[\])
-
- Inject TypeScript classes and parameters from compatibility classes into checkout page.
-
-apply\_filters( 'cfw\_check\_create\_account\_by\_default', true )
-------------------------------------------------------------------
-
- Controls the default disposition of the create account checkbox. If false, create account will be unchecked by default.
-
-apply\_filters( 'cfw\_show\_order\_summary\_link\_text', esc\_html( 'Show order summary', 'checkout-wc' ) );
-------------------------------------------------------------------------------------------------------------
-
-Filter text of 'Show order summary' label on mobile cart.
+<h3>apply_filters('cfw_body_classes', array('checkout-wc'))</h3>
+<p>Filter classes on &lt;body&gt; tag. Default: checkout-wc</p>
+<h3>apply_filters('cfw_get_shipping_checkout_fields', $checkout-&gt;get_checkout_fields( 'shipping' ) );</h3>
+<p>Filters an array of shipping address fields.</p>
+<h3>apply_filters('cfw_get_billing_checkout_fields', $checkout-&gt;get_checkout_fields( 'billing' ) );</h3>
+<p>Filters an array of billing address fields.</p>
+<h3>apply_filters('cfw_payment_gateway_field_html_' . $gateway-&gt;id, $field_html);</h3>
+<p>Filter the HTML output of each payment gateway.</p>
+<h3>apply_filters('cfw_get_template_part_skip_' . $template_part, false)</h3>
+<p>Filter whether the given template is loaded by returning true or false (default).</p>
+<h3>apply_filters('cfw_show_shipping_tab', true)</h3>
+<p>Filter whether the shipping method tab is displayed. (If the cart does not need shipping, the shipping method tab will never be displayed)</p>
+<h3>apply_filters('cfw_template_global_params', array());</h3>
+<p>Add additional global parameters to the global template parameters object.</p>
+<h3>apply_filters('cfw_template_tab_container_el', 'cfw-tab-container');</h3>
+<p>Filters the main tab container HTML element ID.</p>
+<h3>apply_filters('cfw_template_breadcrumb_id', 'cfw-breadcrumb');</h3>
+<p>Filters the breadcrumb HTML element ID.</p>
+<h3>apply_filters('cfw_template_customer_info_el', 'cfw-customer-info');</h3>
+<p>Filters the customer information tab HTML element ID.</p>
+<h3>apply_filters('cfw_template_shipping_method_el', 'cfw-shipping-method');</h3>
+<p>Filters the shipping method tab HTML element ID.</p>
+<h3>apply_filters('cfw_template_payment_method_el', 'cfw-payment-method');</h3>
+<p>Filters the payment method tab HTML element ID.</p>
+<h3>apply_filters('cfw_template_cart_el', &quot;cfw-totals-list&quot;);</h3>
+<p>Filters the cart container HTML element ID.</p>
+<h3>apply_filters('cfw_template_cart_subtotal_el', 'cfw-cart-subtotal');</h3>
+<p>Filters the cart subtotal HTML element ID.</p>
+<h3>apply_filters('cfw_template_cart_shipping_el', 'cfw-cart-shipping-total');</h3>
+<p>Filters the cart shipping HTML element ID.</p>
+<h3>apply_filters('cfw_template_cart_taxes_el', 'cfw-cart-taxes');</h3>
+<p>Filters the cart taxes HTML element ID.</p>
+<h3>apply_filters('cfw_template_cart_total_el','cfw-cart-total');</h3>
+<p>Filters the cart total HTML element ID.</p>
+<h3>apply_filters('cfw_template_cart_coupons_el', 'cfw-cart-coupons');</h3>
+<p>Filters the apply coupon container HTML element ID.</p>
+<h3>apply_filters('cfw_template_cart_review_bar_id', 'cfw-cart-details-review-bar');</h3>
+<p>Filters the cart review bar HTML element ID.</p>
+<h3>apply_filters('cfw_allowed_script_handles', $ignore);</h3>
+<p>Filters list of allowed script handles. Scripts handles present in this array will be loaded on the checkout page, even if they are in a 3rd party plugin or theme.</p>
+<h3>apply_filters('cfw_allowed_style_handles', $ignore);</h3>
+<p>Filters list of allowed style handles. Style handles present in this array will be loaded on the checkout page, even if they are in a 3rd party plugin or theme.</p>
+<h3>apply_filters('cfw_customer_information_heading', __( 'Customer information', 'checkout-wc' ) );</h3>
+<p>Filter the customer information tab heading.</p>
+<h3>apply_filters('cfw_billing_address_heading', esc_html__( 'Billing address', 'checkout-wc' ) );</h3>
+<p>Filter the billing address heading.</p>
+<h3>apply_filters('cfw_shipping_address_heading', esc_html__( 'Shipping address', 'checkout-wc' ) );</h3>
+<p>Filter the shipping address heading.</p>
+<h3>apply_filters('cfw_shipping_method_heading', esc_html__( 'Shipping method', 'checkout-wc' ) );</h3>
+<p>Filter the shipping method heading.</p>
+<h3>apply_filters('cfw_payment_method_heading', esc_html__('Payment method', 'checkout-wc') );</h3>
+<p>Filters the payment method heading.</p>
+<h3>apply_filters('cfw_no_payment_required_text', esc_html__('Your order is free. No payment is required.', 'checkout-wc') );</h3>
+<p>Filters the no payment required text for free orders.</p>
+<h3>apply_filters('cfw_link_cart_items', __return_false() )</h3>
+<p>Filters whether cart items are linked to their respective products on the checkout page. Default is to not link cart items. Return true to link them.</p>
+<h3>apply_filters('cfw_should_load_template_functions', true)</h3>
+<p>Turn off checkout template's functions.php file.</p>
+<h3>apply_filters('cfw_typescript_compatibility_classes_and_params', [])</h3>
+<p>Inject TypeScript classes and parameters from compatibility classes into checkout page.</p>
+<h2>apply_filters( 'cfw_check_create_account_by_default', true )</h2>
+<p>Controls the default disposition of the create account checkbox. If false, create account will be unchecked by default.</p>
+<h2>apply_filters( 'cfw_show_order_summary_link_text', esc_html( 'Show order summary', 'checkout-wc' ) );</h2>
+<p>Filter text of 'Show order summary' label on mobile cart.</p>

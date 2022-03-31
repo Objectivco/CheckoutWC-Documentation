@@ -4,6 +4,5 @@ slug: how-to-add-a-special-notice-to-checkout-page
 cats: How To
 ---
 
- Here's an example snippet demonstrating how to add a custom special notice to the checkout page on the first step:
+<p>Here's an example snippet demonstrating how to add a custom special notice to the checkout page on the first step:</p>
 
-<script src="https://gist.github.com/clifgriffin/65534e75305ed87fa2c38ca71a5a294b.js" type="text/javascript"></script> For more hook locations, see our Visual Hook Guide.

@@ -4,6 +4,5 @@ slug: how-to-require-shipping-address-line-2-apartment-field
 cats: How To
 ---
 
- You can make the shipping Address Line 2 field required with this snippet:
+<p>You can make the shipping Address Line 2 field required with this snippet:</p>
 
-<script src="https://gist.github.com/clifgriffin/7e924d94e55702f017bb757ffe7522e1.js" type="text/javascript"></script>

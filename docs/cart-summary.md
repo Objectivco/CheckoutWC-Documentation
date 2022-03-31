@@ -4,28 +4,23 @@ slug: cart-summary
 cats: Configuration
 ---
 
-Cart Item Label
----------------
-
- Determines how the cart item label is shown.
-
-- **Text:** Cart Item product names are not clickable and rendered as text only.
-- **Link:** Links the cart item product name to the product page.
-
-Cart Item Data Display
-----------------------
-
- Determines how to show variation data.
-
-- **Short:** Size: XL, Color: Red is displayed as XL / Red.
-- **WooCommerce Default:** Each variation is displayed on a separate line using this format: Label: Value
-
-Cart Editing
-------------
-
- For more information on cart editing, [see our guide here.](https://kb.checkoutwc.com/article/70-how-to-enable-cart-editing)
-
-Trust Badges
-------------
-
- For more information on trust badges, [see our guide here.](https://kb.checkoutwc.com/article/125-trust-badges)
+<h2>Cart Item Label</h2>
+<p>Determines how the cart item label is shown.</p>
+<ul>
+<li>
+<strong>Text:</strong> Cart Item product names are not clickable and rendered as text only.</li>
+<li>
+<strong>Link:</strong> Links the cart item product name to the product page.</li>
+</ul>
+<h2>Cart Item Data Display</h2>
+<p>Determines how to show variation data.</p>
+<ul>
+<li>
+<strong>Short:</strong> Size: XL, Color: Red is displayed as XL / Red.</li>
+<li>
+<strong>WooCommerce Default:</strong> Each variation is displayed on a separate line using this format: Label: Value</li>
+</ul>
+<h2>Cart Editing</h2>
+<p>For more information on cart editing, <a href="https://kb.checkoutwc.com/article/70-how-to-enable-cart-editing">see our guide here.</a></p>
+<h2>Trust Badges</h2>
+<p>For more information on trust badges, <a href="https://kb.checkoutwc.com/article/125-trust-badges">see our guide here.</a></p>

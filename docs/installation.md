@@ -4,21 +4,18 @@ slug: installation
 cats: Getting Started
 ---
 
-Installing CheckoutWC
----------------------
-
- To install CheckoutWC, first download the plugin .zip file from your [account](https://www.checkoutwc.com/account/) page. (Download links in your email receipt will not work after 24 hours)
-
-1. Download the purchased zip file to a safe place.
-2. Login to the WordPress admin dashboard and go to **Plugins &gt; Add New**.
-3. At the top of the screen click on 'Upload Plugin' and select the downloaded zip file.
-4. Click 'Install Now'.
-5. Once installation is complete, click 'Activate Plugin'.
-
- Be sure to activate your license key!
-
-Requirements
-------------
-
-- WooCommerce 5.0+
-- PHP 7.0+
+<h2>Installing CheckoutWC</h2>
+<p>To install CheckoutWC, first download the plugin .zip file from your <a href="https://www.checkoutwc.com/account/">account</a> page. (Download links in your email receipt will not work after 24 hours)</p>
+<ol>
+<li>Download the purchased zip file to a safe place.</li>
+<li>Login to the WordPress admin dashboard and go to <strong>Plugins &gt; Add New</strong>.</li>
+<li>At the top of the screen click on 'Upload Plugin' and select the downloaded zip file.</li>
+<li>Click 'Install Now'.</li>
+<li>Once installation is complete, click 'Activate Plugin'.</li>
+</ol>
+<p>Be sure to activate your license key!</p>
+<h2>Requirements</h2>
+<ul>
+<li>WooCommerce 5.0+</li>
+<li>PHP 7.0+</li>
+</ul>

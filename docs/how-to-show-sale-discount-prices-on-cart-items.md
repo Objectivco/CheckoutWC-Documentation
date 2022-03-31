@@ -4,6 +4,5 @@ slug: how-to-show-sale-discount-prices-on-cart-items
 cats: How To
 ---
 
- If you would like your customers to be able to see the regular price next to the sale price on cart items, you can use the following snippet:
+<p>If you would like your customers to be able to see the regular price next to the sale price on cart items, you can use the following snippet:</p>
 
-<script src="https://gist.github.com/clifgriffin/8056e07c45df605655ae71065c504494.js" type="text/javascript"></script>
