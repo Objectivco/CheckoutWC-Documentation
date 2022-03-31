@@ -8,6 +8,4 @@ cats: Developers
 
  You can override this functionality in your child theme's functions.php file with the filter below.
 
-```php
-add_filter( 'cfw_registration_generate_password', '__return_false' );
-```
+<div><div><div> add_filter( 'cfw_registration_generate_password', '__return_false' ); </div></div></div>
