@@ -12,7 +12,7 @@ cats: Configuration
 <p>It's also possible to enter your own custom CSS.</p>
 <p>NOTE: Scripts and styles must be property wrapped in &lt;script&gt; or &lt;style&gt; tags.</p>
 <h4>Php Snippets</h4>
-<p>For information about Php Snippets, <a href="https://kb.checkoutwc.com/article/94-how-to-add-a-custom-php-snippet">please see this document</a>.</p>
+<p>For information about Php Snippets, <a href="https://cfw.test/documentation/how-to-add-a-custom-php-snippet">please see this document</a>.</p>
 <h2>Integrations</h2>
 <p>Depending on which plugins you have installed, additional options will appear on the integrations tab:</p>
 <p><img src="https://s3.amazonaws.com/helpscout.net/docs/assets/5bdde2822c7d3a01757ac42e/images/60ae7ed7c1410a601d9ad32e/file-uNRXcrDSSB.png" alt="" /></p>

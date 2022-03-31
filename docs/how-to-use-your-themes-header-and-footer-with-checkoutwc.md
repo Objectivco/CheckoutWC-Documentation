@@ -24,4 +24,4 @@ cats: How To
 <p>We recommend using the action hook strategy wherever possible.</p>
 <p>For instance, to add a custom header you could do something like this:</p>
 
-<p>If you would like to do something more custom, you can try your hand at creating a <a href="https://kb.checkoutwc.com/article/24-template-files">custom template</a>. <strong>However we really recommend you do this as a last resort.</strong> Maintaining a custom template will require a lot more time in the long run than using action hooks and you should be able to do anything you need to do with action hooks.</p>
+<p>If you would like to do something more custom, you can try your hand at creating a <a href="https://cfw.test/documentation/template-files">custom template</a>. <strong>However we really recommend you do this as a last resort.</strong> Maintaining a custom template will require a lot more time in the long run than using action hooks and you should be able to do anything you need to do with action hooks.</p>

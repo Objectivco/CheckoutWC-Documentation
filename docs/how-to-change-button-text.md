@@ -4,8 +4,8 @@ slug: how-to-change-button-text
 cats: How To
 ---
 
-<p>The text of many of the buttons throughout CheckoutWC can be changed via a filter. We have a how-to article for <a href="https://kb.checkoutwc.com/article/94-how-to-add-a-custom-php-snippet">adding a custom PHP snippet here</a>.</p>
-<p>Note: if you're looking for coupon related filters you can <a href="https://kb.checkoutwc.com/article/113-how-to-change-enter-promo-code-text">find them here</a>.</p>
+<p>The text of many of the buttons throughout CheckoutWC can be changed via a filter. We have a how-to article for <a href="https://cfw.test/documentation/how-to-add-a-custom-php-snippet">adding a custom PHP snippet here</a>.</p>
+<p>Note: if you're looking for coupon related filters you can <a href="https://cfw.test/documentation/how-to-change-enter-promo-code-text">find them here</a>.</p>
 <p>Here is a list of the different button text filters.</p>
 <ul>
 <li>cfw_return_to_cart_link_text</li>

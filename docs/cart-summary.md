@@ -21,6 +21,6 @@ cats: Configuration
 <strong>WooCommerce Default:</strong> Each variation is displayed on a separate line using this format: Label: Value</li>
 </ul>
 <h2>Cart Editing</h2>
-<p>For more information on cart editing, <a href="https://kb.checkoutwc.com/article/70-how-to-enable-cart-editing">see our guide here.</a></p>
+<p>For more information on cart editing, <a href="https://cfw.test/documentation/how-to-enable-cart-editing">see our guide here.</a></p>
 <h2>Trust Badges</h2>
-<p>For more information on trust badges, <a href="https://kb.checkoutwc.com/article/125-trust-badges">see our guide here.</a></p>
+<p>For more information on trust badges, <a href="https://cfw.test/documentation/trust-badges">see our guide here.</a></p>

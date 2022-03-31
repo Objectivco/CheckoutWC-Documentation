@@ -9,7 +9,7 @@ cats: Features
 <ol>
 <li>
 <strong>Pro</strong> (10 Sites) or <strong>Agency</strong> (150 Sites) license</li>
-<li>You must have <a href="https://kb.checkoutwc.com/article/69-how-to-enable-billing-and-shipping-phone-fields">configured WooCommerce to enable the phone field</a>.</li>
+<li>You must have <a href="https://cfw.test/documentation/how-to-enable-billing-and-shipping-phone-fields">configured WooCommerce to enable the phone field</a>.</li>
 <li>For validation, the phone field must be required.</li>
 </ol>
 <p><img src="https://s3.amazonaws.com/helpscout.net/docs/assets/5bdde2822c7d3a01757ac42e/images/61648dc80332cb5b9e9b2a0a/file-0wBoibtOL0.png" alt="" /></p>

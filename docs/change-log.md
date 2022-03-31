@@ -150,7 +150,7 @@ cats: Developers
 </ul>
 <p><strong>Version 7.0.0 - 2022.03.05</strong></p>
 <p>Important: This is a MAJOR release. Please use caution when updating. There were over 360 code changes in this release with some substantial changes to underlying functionality.</p>
-<p>This release removes a number of hooks and filters that are no longer needed but could impact your site if you or your developer wrote custom code to modify your CheckoutWC pages. Before updating, please confirm that you aren't using <a href="https://kb.checkoutwc.com/article/147-removed-action-hooks-and-filters-in-7-0">any of these actions or filters in your custom code</a>. (Most likely you aren't using these hooks, but please check first.)</p>
+<p>This release removes a number of hooks and filters that are no longer needed but could impact your site if you or your developer wrote custom code to modify your CheckoutWC pages. Before updating, please confirm that you aren't using <a href="https://cfw.test/documentation/removed-action-hooks-and-filters-in-7-0">any of these actions or filters in your custom code</a>. (Most likely you aren't using these hooks, but please check first.)</p>
 <p><em>Please backup your site before updating and test on a staging site first BEFORE updating your live site.</em></p>
 <ul>
 <li>New - Redesigned login flow to use modal instead of the password slide down. Customers were sometimes confused by the current login process because the email field was also functionally a username field for the purposes of logging in, and sometimes the password field was for setting a new password and sometimes it was for logging in. The new flow makes these discreet steps that can't be confused for one another.</li>
@@ -221,7 +221,7 @@ cats: Developers
 <li>Fix - Fix bug where the city field was not validated if it was rendered off screen.</li>
 </ul>
 <p><strong>Version 6.2.2 - 2021.12.18</strong></p>
-<p><strong>'Tis the season to be conservative about plugin updates!</strong> 🎄 If your store is humming along through the holiday rush, <em>you may want to wait a few weeks on this update.</em> But if you like the gifts below, receive them with our blessing. (After careful testing!)</p>
+<p><strong>'Tis the season to be conservative about plugin updates!</strong> ð If your store is humming along through the holiday rush, <em>you may want to wait a few weeks on this update.</em> But if you like the gifts below, receive them with our blessing. (After careful testing!)</p>
 <ul>
 <li>Fix - Fix potential fatal error with EU VAT Assistant compatibility module.</li>
 <li>Fix - Reworked order review step to hopefully allow it to work with more gateways.</li>
@@ -230,7 +230,7 @@ cats: Developers
 <li>Improved - Refactored AJAX actions to use super.error() method and cleaned up unused properties/getters/setters.</li>
 </ul>
 <p><strong>Version 6.2.0/6.2.1 - 2021.12.13</strong></p>
-<p><strong>'Tis the season to be conservative about plugin updates!</strong> 🎄 If your store is humming along through the holiday rush, <em>you may want to wait a few weeks on this update.</em> But if you like the gifts below, receive them with our blessing. (After careful testing!)</p>
+<p><strong>'Tis the season to be conservative about plugin updates!</strong> ð If your store is humming along through the holiday rush, <em>you may want to wait a few weeks on this update.</em> But if you like the gifts below, receive them with our blessing. (After careful testing!)</p>
 <ul>
 <li>Improved - Refactored Order Bumps to distinguish between different types of bumps and separate their logic.</li>
 <li>Improved - For products visible in the catalog, clicking an order bump's thumbnail will open the product page in a new window.</li>
@@ -351,7 +351,7 @@ cats: Developers
 <li>Improved - Refactored Fetchify Address Autocomplete JS and</li>
 <li>Fix - Fix bug where Plus plan holders could see Side Cart settings in admin. Settings are now hidden unless you are a Pro or Agency license holder.</li>
 <li>Fix - Fixed styling issues with Fetchify Address Autocomplete and Glass theme / admin bar</li>
-<li>Fix - de_DE_formal is now a separate locale from de_DE. Thanks, Jörg!</li>
+<li>Fix - de_DE_formal is now a separate locale from de_DE. Thanks, JÃ¶rg!</li>
 <li>Fix - Free Shipping progress bar now shows decimal values when necessary.</li>
 <li>Fix - Fix more CSS conflicts with Side Cart and random themes and plugins</li>
 </ul>
@@ -515,7 +515,7 @@ Fix cfw_get_shipping_total()</p>
 <p><strong>Version 5.3.0 - 2021.07.6</strong></p>
 <p>This is a pretty big release! <strong>As always, we recommend testing on a staging site before updating your live site!</strong></p>
 <ul>
-<li>New - Added new address autocomplete service - <a href="https://kb.checkoutwc.com/article/136-fetchify-address-autocomplete">Fetchify</a>!</li>
+<li>New - Added new address autocomplete service - <a href="https://cfw.test/documentation/fetchify-address-autocomplete">Fetchify</a>!</li>
 <li>New - Filter WooCommerce Admin orders screen by whether the order contains Order Bumps.</li>
 <li>New - New color settings for breadcrumbs and accent colors.</li>
 <li>New - Refactored color settings to use Custom CSS Properties.</li>
@@ -551,7 +551,7 @@ Fix cfw_get_shipping_total()</p>
 </ul>
 <p><strong>Version 5.2.2 - 2021.06.14</strong></p>
 <ul>
-<li>Hotfix - Fixes for Avada 7.4. <a href="https://kb.checkoutwc.com/article/65-avada-template-layout-problems">PLEASE READ THIS DOC BEFORE CONTACTING SUPPORT.</a>
+<li>Hotfix - Fixes for Avada 7.4. <a href="https://cfw.test/documentation/avada-template-layout-problems">PLEASE READ THIS DOC BEFORE CONTACTING SUPPORT.</a>
 </li>
 </ul>
 <p><strong>Version 5.2.1 - 2021.06.14</strong></p>
@@ -585,7 +585,7 @@ Fix cfw_get_shipping_total()</p>
 </ul>
 <p><strong>Version 5.1.0 - 2021.06.04</strong></p>
 <ul>
-<li>New! Order Bumps can now be used as Upsells. Check out our documentation here: <a href="https://kb.checkoutwc.com/article/126-order-bumps">https://kb.checkoutwc.com/article/126-order-bumps</a>
+<li>New! Order Bumps can now be used as Upsells. Check out our documentation here: <a href="https://cfw.test/documentation/order-bumps">https://kb.checkoutwc.com/article/126-order-bumps</a>
 </li>
 <li>New - Support for WooCommerce Pakettikauppa</li>
 <li>New - Support for Woo Finvoicer</li>
@@ -709,7 +709,7 @@ Fix cfw_get_shipping_total()</p>
 </ul>
 <p><strong>Version 4.3.0 - 2021.03.26</strong></p>
 <ul>
-<li>🎨 New: During refreshes checkout sections now have a sweet new 'loading shimmer' effect rather than fading out.</li>
+<li>ð¨ New: During refreshes checkout sections now have a sweet new 'loading shimmer' effect rather than fading out.</li>
 <li>Improved: Page now refreshes faster on first load</li>
 <li>Improved: Added missing aria description to field output.</li>
 <li>Fix - Fix edge cases where fatal error could be fired if a shipping method isn't a proper shipping method.</li>
@@ -1342,7 +1342,7 @@ Fix cfw_get_shipping_total()</p>
 </ul>
 <p><strong>Version 2.42.0 - 2020.02.08</strong></p>
 <ul>
-<li>New: Support for <a href="https://kb.checkoutwc.com/article/89-permit-elementor-styles-and-scripts-on-the-checkout-page">Elementor Pro!</a>
+<li>New: Support for <a href="https://cfw.test/documentation/permit-elementor-styles-and-scripts-on-the-checkout-page">Elementor Pro!</a>
 </li>
 <li>New: Support for WPC Product Bundles</li>
 <li>New: Compatibility with Blaszok theme</li>
@@ -1408,8 +1408,8 @@ Fix cfw_get_shipping_total()</p>
 <p>This update includes a few refactors and while we have obsessively tested the changes, <strong>your store is different than ours!</strong></p>
 <p><strong>Before updating your live site, PLEASE TEST THOROUGHLY.</strong> We don't want any of our customers to lose sales during this important season.</p>
 <ul>
-<li>New: You can now use Checkout Field Editor to modify your billing and shipping address fields. We still think most stores should leave this alone, but this makes it much easier to add custom address fields. We also <a href="https://kb.checkoutwc.com/article/49-how-to-add-a-custom-field">updated our documentation</a>. This is disabled by default to prevent issues with existing stores.</li>
-<li>New: Added support for NIF (Num. de Contribuinte Português) for WooCommerce</li>
+<li>New: You can now use Checkout Field Editor to modify your billing and shipping address fields. We still think most stores should leave this alone, but this makes it much easier to add custom address fields. We also <a href="https://cfw.test/documentation/how-to-add-a-custom-field">updated our documentation</a>. This is disabled by default to prevent issues with existing stores.</li>
+<li>New: Added support for NIF (Num. de Contribuinte PortuguÃªs) for WooCommerce</li>
 <li>New: Added support for WooCommerce Order Delivery.</li>
 <li>Improved: If license is detected as inactive, we do an additional check when loading the checkout page to reduce the chance of a false positive.</li>
 <li>Improved: Refactored template files to use action hooks to queue the different sections. This makes it easier to maintain the template files and also makes it easier to reorder the layout of each tab without using a custom template.</li>
@@ -1457,7 +1457,7 @@ Fix cfw_get_shipping_total()</p>
 </ul>
 <p><strong>Version 2.39.0 - 2019.11.06</strong></p>
 <ul>
-<li>🎉 NEW PREMIUM FEATURE: Thank You Page - This highly requested feature allows you to replace your ugly WooCommerce thank you page with a Shopify style thank you page, complete with map embedding. <a href="https://kb.checkoutwc.com/article/85-how-to-enable-and-configure-the-thank-you-page">Details here.</a>
+<li>ð NEW PREMIUM FEATURE: Thank You Page - This highly requested feature allows you to replace your ugly WooCommerce thank you page with a Shopify style thank you page, complete with map embedding. <a href="https://cfw.test/documentation/how-to-enable-and-configure-the-thank-you-page">Details here.</a>
 </li>
 <li>Improved: Added filters for every return / continue button.</li>
 <li>Improved: Strengthened field styles to prevent other plugins from messing with them.</li>
@@ -1492,7 +1492,7 @@ Fix cfw_get_shipping_total()</p>
 <li>New: Add ability to ask users for custom password.</li>
 <li>Improved: Refactored tab switching code to clean up some ugly workarounds.</li>
 <li>Improved: Refactored JS compatibility factory.</li>
-<li>Improved: Bypass flag is now comprehensive. <a href="https://kb.checkoutwc.com/article/83-how-to-bypass-checkoutwc-for-testing">More info.</a>
+<li>Improved: Bypass flag is now comprehensive. <a href="https://cfw.test/documentation/how-to-bypass-checkoutwc-for-testing">More info.</a>
 </li>
 <li>Fix: Fix edge case bug where PHP fatal error was possible with PayPal Checkout in one install.</li>
 <li>Fix: Fix translation of 'Remove Item'</li>
@@ -1554,7 +1554,7 @@ Fix cfw_get_shipping_total()</p>
 </ul>
 <p><strong>Version 2.35.0 - 2019.09.06</strong></p>
 <ul>
-<li>Improved: Added filter cfw_header_home_url to allow changing the home URL link in the header. <a href="https://kb.checkoutwc.com/article/80-how-to-change-the-header-link-url">More information.</a>
+<li>Improved: Added filter cfw_header_home_url to allow changing the home URL link in the header. <a href="https://cfw.test/documentation/how-to-change-the-header-link-url">More information.</a>
 </li>
 <li>Improved: Added the ability to adjust cart item quantity over 10. It now prompts the user to enter their desired quantity when selecting '10+'.</li>
 <li>Improved: Re-factored how alerts are handled to make them more consistent / standardized.</li>
@@ -1565,7 +1565,7 @@ Fix cfw_get_shipping_total()</p>
 <ul>
 <li>New: Added support for Braintree for WooCommerce: <a href="https://wordpress.org/plugins/woo-payment-gateway/">https://wordpress.org/plugins/woo-payment-gateway/</a>
 </li>
-<li>Improved: Add the ability to restrict address autocomplete to specific countries: <a href="https://kb.checkoutwc.com/article/79-how-to-add-country-restrictions-to-address-autocomplete">https://kb.checkoutwc.com/article/79-how-to-add-country-restrictions-to-address-autocomplete</a>
+<li>Improved: Add the ability to restrict address autocomplete to specific countries: <a href="https://cfw.test/documentation/how-to-add-country-restrictions-to-address-autocomplete">https://kb.checkoutwc.com/article/79-how-to-add-country-restrictions-to-address-autocomplete</a>
 </li>
 <li>Fix: Fix bug with Smart Send</li>
 <li>Fix: Fix edge case bug with WP Rocket CDN settings.</li>
@@ -1585,7 +1585,7 @@ Fix cfw_get_shipping_total()</p>
 </ul>
 <p><strong>Version 2.34.0 - 2019.08.19</strong></p>
 <ul>
-<li>🎉 NEW: Support for WooCommerce Checkout Field Editor. Due to the custom nature of our forms, we can only support <strong>Additional Fields.</strong> When both plugins are active, we hide the Billing and Shipping tabs from the field editor screen.</li>
+<li>ð NEW: Support for WooCommerce Checkout Field Editor. Due to the custom nature of our forms, we can only support <strong>Additional Fields.</strong> When both plugins are active, we hide the Billing and Shipping tabs from the field editor screen.</li>
 <li>New: Added support for Listable theme.</li>
 <li>Improved: Upped WooCommerce supported version to 3.7.0.</li>
 <li>Improved: Square Recurring Payments fields are now styled better.</li>
@@ -1666,7 +1666,7 @@ Fix cfw_get_shipping_total()</p>
 </ul>
 <p><strong>Version 2.31.0 - 2019.07.18</strong></p>
 <ul>
-<li>🍾 NEW: Added support for order-pay checkout endpoint. Disabled by default. <a href="https://kb.checkoutwc.com/article/75-how-to-enable-order-pay-support">More information here.</a>
+<li>ð¾ NEW: Added support for order-pay checkout endpoint. Disabled by default. <a href="https://cfw.test/documentation/how-to-enable-order-pay-support">More information here.</a>
 </li>
 <li>Improved: Refactored template management and loading classes.</li>
 <li>Improved: Refactored zip autocomplete class.</li>
@@ -1713,7 +1713,7 @@ Fix cfw_get_shipping_total()</p>
 </ul>
 <p><strong>Version 2.27.0 - 2019.07.09</strong></p>
 <ul>
-<li>🎉 NEW: Address Autocomplete is here! Customers can now quickly and accurately locate their address using Google Maps. <strong>Requires a Growth or Agency license to enable.</strong> <a href="https://kb.checkoutwc.com/article/72-how-to-enable-address-autocomplete">More information.</a>
+<li>ð NEW: Address Autocomplete is here! Customers can now quickly and accurately locate their address using Google Maps. <strong>Requires a Growth or Agency license to enable.</strong> <a href="https://cfw.test/documentation/how-to-enable-address-autocomplete">More information.</a>
 </li>
 <li>Fix: Fixed issue where WooCommerce Extra Checkout Fields for Brazil removed the phone fields.</li>
 <li>Fix: Fixed issue where Order Notes field is not displayed properly.</li>
@@ -1760,7 +1760,7 @@ Fix cfw_get_shipping_total()</p>
 </ul>
 <p><strong>Version 2.24.0 - 06/26/2019</strong></p>
 <ul>
-<li>🎉 NEW: Cart editing is here! Customers can now adjust the quantity or remove cart items from checkout. <strong>Requires a Growth or Agency license to enable.</strong> <a href="https://kb.checkoutwc.com/article/70-how-to-enable-cart-editing">More information.</a>
+<li>ð NEW: Cart editing is here! Customers can now adjust the quantity or remove cart items from checkout. <strong>Requires a Growth or Agency license to enable.</strong> <a href="https://cfw.test/documentation/how-to-enable-cart-editing">More information.</a>
 </li>
 <li>Improved: Account exists AJAX call is now throttled to prevent waste of server resources.</li>
 <li>Fixed: Field validation messages now works with Norwegian translations.</li>
@@ -1777,7 +1777,7 @@ Fix cfw_get_shipping_total()</p>
 </ul>
 <p><strong>Version 2.23.0 - 06/21/2019</strong></p>
 <ul>
-<li>New: Added <strong>Cart Summary Mobile Label</strong> setting to make it easier to override the mobile cart link label. <a href="https://kb.checkoutwc.com/article/60-how-to-change-show-order-summary-text-on-mobile-cart">More information.</a>
+<li>New: Added <strong>Cart Summary Mobile Label</strong> setting to make it easier to override the mobile cart link label. <a href="https://cfw.test/documentation/how-to-change-show-order-summary-text-on-mobile-cart">More information.</a>
 </li>
 <li>Improved: Added preliminary support for WooCommerce Address Validation with SmartyStreets. Implementation has some glitches, but this is a start.</li>
 <li>Improved: Added shim for default ship_to_different_address field. Before we were using this field to essentially mean the opposite of what it means on the default checkout because our address order is reversed. Now we have added an invisible shim for plugins that check this value that has a predictable, normal value and added a separate field for handling showing/hiding the billing address.</li>
@@ -1843,7 +1843,7 @@ Fix cfw_get_shipping_total()</p>
 <li>Fix: Fixed an edge case bug with calculating form field rows.</li>
 </ul>
 <p><strong>Version 2.20.0 - 05/08/2019</strong></p>
-<p>⚠️ If you had a problem with your license deactivating itself randomly, we are really sorry. It only affected a small number of customers, but that's no excuse!</p>
+<p>â ï¸ If you had a problem with your license deactivating itself randomly, we are really sorry. It only affected a small number of customers, but that's no excuse!</p>
 <p>This release has a permanent fix, but <strong>after you update</strong>please go to Settings &gt; Checkout for WooCommerce &gt; License and click &quot;Deactivate&quot; and then &quot;Activate&quot; again. This will ensure you have no future problems!</p>
 <ul>
 <li>Fix: Fixed issues with PostNL</li>
@@ -1879,7 +1879,7 @@ Fix cfw_get_shipping_total()</p>
 </ul>
 <p><strong>Version 2.18.0 - 05/02/2019</strong></p>
 <p>This release contains some changes to field labels and placeholders. All optional fields now include &quot;(optional)&quot; at the end of the placeholder and label. This is in keeping with best practices. Also, we're using the native WooCommerce label for address_2, so instead of the abbreviation &quot;Apt&quot; it's now spelled out &quot;Apartment&quot;.</p>
-<p>Lastly, the address_2 field is now full width. This mitigates some display issues on smaller screens where the label was cut off. You can always remove this field entirely by <a href="https://kb.checkoutwc.com/article/64-how-to-remove-address-line-2">following this guide.</a></p>
+<p>Lastly, the address_2 field is now full width. This mitigates some display issues on smaller screens where the label was cut off. You can always remove this field entirely by <a href="https://cfw.test/documentation/how-to-remove-address-line-2">following this guide.</a></p>
 <ul>
 <li>Improved: Consistently apply optional notice to all optional fields.</li>
 <li>Use WooCommerce native translation for most address fields.</li>
@@ -1903,12 +1903,12 @@ Fix cfw_get_shipping_total()</p>
 <li>Fixed: Fixed a few Firefox styling issues related to field heights and credit card icons.</li>
 </ul>
 <p><strong>Version 2.16.1 - 04/26/2019</strong></p>
-<p>🚨IMPORTANT: This update includes an important fix that requires a small template change. <a href="https://kb.checkoutwc.com/article/66-upgrading-custom-templates-from-2-16-0-to-2-16-1">Please follow this guide to update your template after updating to 2.16.1.</a></p>
+<p>ð¨IMPORTANT: This update includes an important fix that requires a small template change. <a href="https://kb.checkoutwc.com/article/66-upgrading-custom-templates-from-2-16-0-to-2-16-1">Please follow this guide to update your template after updating to 2.16.1.</a></p>
 <ul>
 <li>Fix: WooCommerce 3.6 made a change to how customer data is loaded on the checkout page. Our attempts to fix this in 2.16.0 caused an issue with validation that caused a small number of stores to fail checkout submission for a fresh session in an incognito window. This is fixed now and we're very sorry for any disruptions this may have caused.</li>
 </ul>
 <p><strong>Version 2.16.0 - 04/24/2019</strong></p>
-<p>This update has quite a few fixes in it. As always, please test before deploying to your live site. 🙏</p>
+<p>This update has quite a few fixes in it. As always, please test before deploying to your live site. ð</p>
 <ul>
 <li>Add additional check to PayPal Checkout button to try to prevent double place order buttons.</li>
 <li>Automatic field row calculations and wraps which allows us to simplify our field API.</li>
@@ -1931,7 +1931,7 @@ Fix cfw_get_shipping_total()</p>
 <li>Fixed: Braintree's hosted fields <em>really</em>don't want to load if they are not visible. To fix this, we have added a one time event that refreshes the Braintree fields after the payment tab loads. This fixes all of the issues we have been having with the fields not loading correctly.</li>
 </ul>
 <p><strong>Version 2.15.1 - 04/13/2019</strong></p>
-<p>Sometimes when your children keep you awake half of the night, you end up refactoring code in your head. My insomnia is your reward. 😴</p>
+<p>Sometimes when your children keep you awake half of the night, you end up refactoring code in your head. My insomnia is your reward. ð´</p>
 <ul>
 <li>Fix: Refactored the fix for PayPal for WooCommerce billing field validation errors to be simpler and more robust. Now works for logged in users and logged out users.</li>
 </ul>
@@ -1942,7 +1942,7 @@ Fix cfw_get_shipping_total()</p>
 <li>Fix: Fixed bug where Braintree credit card fields do not load.</li>
 </ul>
 <p><strong>Version 2.14.0 - 04/11/2019</strong></p>
-<p>This release does some minor refactoring to help broaden compatibility with other plugins. We re-tested a number of common plugins, but there's always a chance there will be an unintended side effect. <strong>Please test yourself before updating! (Which you should always do anyway 😃)</strong></p>
+<p>This release does some minor refactoring to help broaden compatibility with other plugins. We re-tested a number of common plugins, but there's always a chance there will be an unintended side effect. <strong>Please test yourself before updating! (Which you should always do anyway ð)</strong></p>
 <ul>
 <li>Improved: Fixed bug with WooCommerce 3.6-rc2</li>
 <li>Improved: State label will now use the localized version such as &quot;Region&quot;</li>
@@ -2007,7 +2007,7 @@ Fix cfw_get_shipping_total()</p>
 <ul>
 <li>New: Support for Smart Offers, Checkout Countdown Timer, and any plugin that uses woocommerce_before_checkout_form</li>
 <li>Improved: Optimized autoloader and removed an unused PHP library</li>
-<li>Improved: Removed a number of compatibility classes that are no longer required. Parity FTW.✌🏻</li>
+<li>Improved: Removed a number of compatibility classes that are no longer required. Parity FTW.âð»</li>
 <li>Fixed: Fixed bug with Square gateway where fields wouldn't render if they were not visible on page load.</li>
 </ul>
 <p><strong>Version 2.12.0 - 03/20/2019</strong></p>
@@ -2020,7 +2020,7 @@ Fix cfw_get_shipping_total()</p>
 <ul>
 <li>Improved: We now detect server errors during checkout submit, login, coupon applications, etc allowing users to have more information about what is going on with their order.</li>
 <li>Fix: Fixed bug preventing address line 2 label overrides from working properly.</li>
-<li>House keeping: Removed some vestigial logging.🧹</li>
+<li>House keeping: Removed some vestigial logging.ð§¹</li>
 </ul>
 <p><strong>Version 2.11.2 - 03/18/2019</strong></p>
 <ul>
@@ -2059,7 +2059,7 @@ Fix cfw_get_shipping_total()</p>
 <li>New: Add opt-in anonymous stat collection. Help us make CheckoutWC better!</li>
 <li>New: Support for YITH Deals Premium</li>
 <li>New: Add support for Pakkelabels</li>
-<li>New: Added cfw_check_create_account_by_default filter so that you can set the default checked state of the create account checkbox. More information here: <a href="https://kb.checkoutwc.com/article/54-how-to-set-create-account-checkbox-to-unchecked-by-default">https://kb.checkoutwc.com/article/54-how-to-set-create-account-checkbox-to-unchecked-by-default</a>
+<li>New: Added cfw_check_create_account_by_default filter so that you can set the default checked state of the create account checkbox. More information here: <a href="https://cfw.test/documentation/how-to-set-create-account-checkbox-to-unchecked-by-default">https://kb.checkoutwc.com/article/54-how-to-set-create-account-checkbox-to-unchecked-by-default</a>
 </li>
 <li>New: Added support for Facebook for WooCommerce</li>
 <li>Improved: Detect PHP versions before 5.6 to prevent fatal error. (Plugin will activate, but not do anything - we will add a notice in a future version)</li>
@@ -2091,7 +2091,7 @@ Fix cfw_get_shipping_total()</p>
 <ul>
 <li>Fix: Works properly with &quot;WooCommerce Ajax add to cart&quot; (https://wordpress.org/plugins/woo-ajax-add-to-cart/)</li>
 <li>Fix: PayPal buttons now load properly on the first page load on a new session. *PayPal buttons should seriously work all the time in every situation now.*If you had asked me as a child how much of my life I expected to be consumed with figuring out why PayPal buttons don't appear, I would have cried and said &quot;What is a PayPal button?&quot;</li>
-<li>Improved: Moved form wraps so that they wrap the entire checkout page. This is necessary to allow moving the checkout button to the sidebar. More information: <a href="https://kb.checkoutwc.com/article/37-how-to-move-the-complete-order-button-to-the-cart-summary-sidebar">https://kb.checkoutwc.com/article/37-how-to-move-the-complete-order-button-to-the-cart-summary-sidebar</a>
+<li>Improved: Moved form wraps so that they wrap the entire checkout page. This is necessary to allow moving the checkout button to the sidebar. More information: <a href="https://cfw.test/documentation/how-to-move-the-complete-order-button-to-the-cart-summary-sidebar">https://kb.checkoutwc.com/article/37-how-to-move-the-complete-order-button-to-the-cart-summary-sidebar</a>
 </li>
 </ul>
 <p><strong>Version 2.7.4</strong></p>
@@ -2129,7 +2129,7 @@ Fix cfw_get_shipping_total()</p>
 <li>Fixed: PayPal for WooCommerce and PayPal Checkout now display their buttons properly every time!</li>
 </ul>
 <p><strong>Version 2.6.0</strong></p>
-<p>In 2.6.0, we continue to squash bugs and add customer requested features. Thanks for helping make CheckoutWC better. 👏🏼</p>
+<p>In 2.6.0, we continue to squash bugs and add customer requested features. Thanks for helping make CheckoutWC better. ðð¼</p>
 <ul>
 <li>Fixed: CheckoutWC JS and CSS were loading on the order received and order pay pages. Now they aren't.</li>
 <li>Fixed: Payment Request Button separator wasn't loading for PayPal for WooCommerce. Now it does!</li>
@@ -2148,7 +2148,7 @@ Fix cfw_get_shipping_total()</p>
 <li>Fix how we handle jQuery as a dependency with web pack to prevent double loading jQuery.</li>
 </ul>
 <p><strong>Version 2.5.0/2.5.1/2.5.2</strong></p>
-<p>⚠️ WARNING: If you are using a custom template, please <a href="https://kb.checkoutwc.com/article/32-upgrade-custom-templates-from-2-4-16-to-2-50">read this</a>BEFORE upgrading. ⚠️</p>
+<p>â ï¸ WARNING: If you are using a custom template, please <a href="https://kb.checkoutwc.com/article/32-upgrade-custom-templates-from-2-4-16-to-2-50">read this</a>BEFORE upgrading. â ï¸</p>
 <ul>
 <li>Remove tests from release build to reduce size.</li>
 <li>Suppress add to cart notice on checkout page at all times.</li>
@@ -2229,7 +2229,7 @@ Fix cfw_get_shipping_total()</p>
 <ul>
 <li>Improve compatibility with native WooCommerce UI blocker. (Fixes UX issue with PayPal for WooCommerce when using skip final details option)</li>
 <li>Don't allow themes or plugins to nuke checkout page background.</li>
-<li>Add separate Mexican translations with improved Spanish translations. (Props: Filiberto Flores 👍🏻)</li>
+<li>Add separate Mexican translations with improved Spanish translations. (Props: Filiberto Flores ðð»)</li>
 </ul>
 <p><strong>Version 2.4.3</strong></p>
 <ul>
@@ -2303,7 +2303,7 @@ Fix cfw_get_shipping_total()</p>
 </ul>
 <p><strong>Version 2.2.2</strong></p>
 <ul>
-<li>🚨IMPORTANT FIX: WooCommerce 3.5 changed how they loaded payment gateways so that under some circumstances, gateways were not loaded before CheckoutWC's template was loaded, breaking Stripe and probably other gateways. This release fixes this issue!</li>
+<li>ð¨IMPORTANT FIX: WooCommerce 3.5 changed how they loaded payment gateways so that under some circumstances, gateways were not loaded before CheckoutWC's template was loaded, breaking Stripe and probably other gateways. This release fixes this issue!</li>
 <li>Fixed styling of Mailchimp for WooCommerce checkboxes.</li>
 <li>Fixed styling of paragraph tags in terms and conditions box.</li>
 <li>Added class &quot;secure-notice&quot; to all transactions are secure notice.</li>
@@ -2322,9 +2322,9 @@ Fix cfw_get_shipping_total()</p>
 </ul>
 <p><strong>Version 2.1.6</strong></p>
 <ul>
-<li>Add support for WooCommerce Google Analytics Integration 📈</li>
-<li>Add support for WooCommerce Hear About Us 🎧</li>
-<li>Fix bug where Stripe greedily removes separator when PayPal Express button is visible. 🐛</li>
+<li>Add support for WooCommerce Google Analytics Integration ð</li>
+<li>Add support for WooCommerce Hear About Us ð§</li>
+<li>Fix bug where Stripe greedily removes separator when PayPal Express button is visible. ð</li>
 </ul>
 <p><strong>Version 2.1.5</strong></p>
 <ul>
@@ -2348,8 +2348,8 @@ Fix cfw_get_shipping_total()</p>
 </ul>
 <p><strong>Version 2.1.0</strong></p>
 <ul>
-<li>Support for Pakkalabels for WooCommerce 📦</li>
-<li>Fixed bug with payment request buttons in Futurist theme. 🕷</li>
+<li>Support for Pakkalabels for WooCommerce ð¦</li>
+<li>Fixed bug with payment request buttons in Futurist theme. ð·</li>
 </ul>
 <p><strong>Version 2.0.1/2.02</strong></p>
 <ul>
@@ -2359,10 +2359,10 @@ Fix cfw_get_shipping_total()</p>
 <p><strong>Version 2.0.0</strong></p>
 <ul>
 <li>
-<p>📣 Major release! There are potentially some breaking changes here, so please read the release notes thoroughly!</p>
+<p>ð£ Major release! There are potentially some breaking changes here, so please read the release notes thoroughly!</p>
 </li>
 <li>
-<p>🖼 Multiple templates! In addition to the default template, we have two new templates:</p>
+<p>ð¼ Multiple templates! In addition to the default template, we have two new templates:</p>
 <ul>
 <li>Copify - A theme styled to look as much like Shopify as possible.</li>
 <li>Futurist - A fresh theme with a slightly different vibe.</li>
@@ -2370,28 +2370,28 @@ Fix cfw_get_shipping_total()</p>
 </ul>
 </li>
 <li>
-<p>Design settings are now specific to the template, so you can safely change templates without eliminating you current settings. 🎨</p>
+<p>Design settings are now specific to the template, so you can safely change templates without eliminating you current settings. ð¨</p>
 </li>
 <li>
-<p>If you have overridden the template files in your WordPress child theme, your template will still work. However it's important to update your template files as soon as possible as this functionality will be removed in a future release! ⚠</p>
+<p>If you have overridden the template files in your WordPress child theme, your template will still work. However it's important to update your template files as soon as possible as this functionality will be removed in a future release! â</p>
 </li>
 <li>
-<p>Payment buttons like Apple Pay and Google Payment Request (both through Stripe) and PayPal Express are shown at the beginning of checkout, in a nicely formatted way that makes it easy to enable all three options. 💸</p>
+<p>Payment buttons like Apple Pay and Google Payment Request (both through Stripe) and PayPal Express are shown at the beginning of checkout, in a nicely formatted way that makes it easy to enable all three options. ð¸</p>
 </li>
 <li>
-<p>Added support for Braintree! ⭐️</p>
+<p>Added support for Braintree! â­ï¸</p>
 </li>
 <li>
-<p>Added support for Amazon Pay!⭐️</p>
+<p>Added support for Amazon Pay!â­ï¸</p>
 </li>
 <li>
-<p>Fixed compatibility issue with Pixel Your Site Pro. 🕷</p>
+<p>Fixed compatibility issue with Pixel Your Site Pro. ð·</p>
 </li>
 <li>
-<p>Added support for Facebook for WooCommerce. ✅</p>
+<p>Added support for Facebook for WooCommerce. â</p>
 </li>
 <li>
-<p>Fixed bug with WooCommerce subscriptions.🕷</p>
+<p>Fixed bug with WooCommerce subscriptions.ð·</p>
 </li>
 </ul>
 <p><strong>Version 1.6.1</strong></p>
@@ -2453,7 +2453,7 @@ Fix cfw_get_shipping_total()</p>
 </ul>
 <p><strong>Version 1.4.0</strong></p>
 <ul>
-<li>Added support for WooCommerce shipping packages.📦</li>
+<li>Added support for WooCommerce shipping packages.ð¦</li>
 <li>Also works with WooCommerce Advanced Shipping Packages!</li>
 </ul>
 <p><strong>Version 1.3.2</strong></p>
@@ -2469,15 +2469,15 @@ Fix cfw_get_shipping_total()</p>
 <p><strong>Version 1.3.0</strong></p>
 <p>In no particular order:</p>
 <ul>
-<li>Refactored all compatibility classes for plugins and gateways into a new, easily maintainable structure. 🏆</li>
-<li>Improved Stripe gateway support robustness. 💪</li>
+<li>Refactored all compatibility classes for plugins and gateways into a new, easily maintainable structure. ð</li>
+<li>Improved Stripe gateway support robustness. ðª</li>
 <li>Deprecated support for Stripe 3.x. Please use Stripe 4.x.</li>
 <li>Fixed bug with Jilt integration not tracking recovered purchases.</li>
 <li>Added spinner to overlay and improved overlay display.</li>
 <li>Fixed bug with international addresses.</li>
 <li>Fixed bug with account exists AJAX check.</li>
 <li>Moved all AJAX endpoints to wc_ajax from wp_ajax. (Related to Jilt fix)</li>
-<li>Added support for: ✅
+<li>Added support for: â
 <ul>
 <li>Google Analytics Pro</li>
 <li>Enhanced Ecommerce Google Analytics for WooCommerce</li>
@@ -2517,20 +2517,20 @@ Fix cfw_get_shipping_total()</p>
 </ul>
 <p><strong>Version 1.2.0</strong></p>
 <ul>
-<li>We refactored our submission model to work with more gateways out of the box. 🏗</li>
-<li>Stripe 4.x gateway support! (Backwards compatible with Stripe 3.x) 💳
+<li>We refactored our submission model to work with more gateways out of the box. ð</li>
+<li>Stripe 4.x gateway support! (Backwards compatible with Stripe 3.x) ð³
 <ul>
 <li>AND! Stripe Checkout (modal)</li>
 <li>ALSO: Bancontact, SOFORT, Giropay, iDeal, P24, Alipay, SEPA Direct Debit, etc</li>
 </ul>
 </li>
-<li>BlueSnap gateway support 💳</li>
-<li>Phone fields support (<a href="https://gist.github.com/clifgriffin/39c615e586f7e0b33eb430c56e87aab0">added with filter</a>) 📞</li>
-<li>Notes field support (<a href="https://gist.github.com/clifgriffin/1f8f441e47ccc72675ff9cc394322b2f">added with filter</a>) 📝</li>
+<li>BlueSnap gateway support ð³</li>
+<li>Phone fields support (<a href="https://gist.github.com/clifgriffin/39c615e586f7e0b33eb430c56e87aab0">added with filter</a>) ð</li>
+<li>Notes field support (<a href="https://gist.github.com/clifgriffin/1f8f441e47ccc72675ff9cc394322b2f">added with filter</a>) ð</li>
 </ul>
 <p><strong>Version 1.1.5</strong></p>
 <ul>
-<li>Fixed a small bug with the add-to-cart URL parameter where normal Add to Cart requests were redirected to checkout instead of the cart. Thanks, Scott! 👏🏼</li>
+<li>Fixed a small bug with the add-to-cart URL parameter where normal Add to Cart requests were redirected to checkout instead of the cart. Thanks, Scott! ðð¼</li>
 </ul>
 <p><strong>Version 1.1.4</strong></p>
 <ul>
@@ -2542,8 +2542,8 @@ Fix cfw_get_shipping_total()</p>
 </ul>
 <p><strong>Version 1.1.2</strong></p>
 <ul>
-<li>🕷Fixed bug with variation combination not showing up in cart line items.</li>
-<li>⭐ Added support for add-to-cart={product_id} URL parameter. So you can pre-load the cart for checkout with a URL like: <a href="https://demo.checkoutwc.com/checkout/?add-to-cart=56">https://demo.checkoutwc.com/checkout/?add-to-cart=56</a>
+<li>ð·Fixed bug with variation combination not showing up in cart line items.</li>
+<li>â­ Added support for add-to-cart={product_id} URL parameter. So you can pre-load the cart for checkout with a URL like: <a href="https://demo.checkoutwc.com/checkout/?add-to-cart=56">https://demo.checkoutwc.com/checkout/?add-to-cart=56</a>
 </li>
 </ul>
 <p><strong>Version 1.1.1</strong></p>
@@ -2582,5 +2582,5 @@ Fix cfw_get_shipping_total()</p>
 </ul>
 <p><strong>Version 1.0.0</strong></p>
 <ul>
-<li>We have a release! 🍾🎉🙌</li>
+<li>We have a release! ð¾ðð</li>
 </ul>

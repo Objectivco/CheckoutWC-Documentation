@@ -4,7 +4,7 @@ slug: order-bumps
 cats: Features
 ---
 
-<p>Order Bumps allow you to increase your <strong>Average Order Value</strong> (AOV). Order Bumps are only available to <strong>Pro</strong> or <strong>Agency</strong> plans. If you need to upgrade your license, <a href="https://kb.checkoutwc.com/article/53-upgrading-your-license">click here.</a></p>
+<p>Order Bumps allow you to increase your <strong>Average Order Value</strong> (AOV). Order Bumps are only available to <strong>Pro</strong> or <strong>Agency</strong> plans. If you need to upgrade your license, <a href="https://cfw.test/documentation/upgrading-your-license">click here.</a></p>
 <p>Order Bumps are situational and may affect conversions <em>negatively</em>, so we encourage merchants to thoughtfully consider how to best leverage them and pay careful attention to their analytics data.</p>
 <p>Here's what an Order Bump looks like to a customer</p>
 <p><img src="https://s3.amazonaws.com/helpscout.net/docs/assets/5bdde2822c7d3a01757ac42e/images/60ae78154dda6972e092f739/file-0zttt52DMg.png" alt="" /></p>

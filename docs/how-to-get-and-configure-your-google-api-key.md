@@ -7,9 +7,9 @@ cats: How To
 <p>There are two features that require a Google API Key to work properly:</p>
 <ol>
 <li>
-<a href="https://kb.checkoutwc.com/article/72-how-to-enable-address-autocomplete">Address Autocomplete</a>
+<a href="https://cfw.test/documentation/how-to-enable-address-autocomplete">Address Autocomplete</a>
 </li>
-<li>Map Embed on the <a href="https://kb.checkoutwc.com/article/85-how-to-enable-and-configure-the-thank-you-page">Thank You Page</a>
+<li>Map Embed on the <a href="https://cfw.test/documentation/how-to-enable-and-configure-the-thank-you-page">Thank You Page</a>
 </li>
 </ol>
 <p>In order to use these features, you need to register a Google API Key. You can do this through <a href="https://cloud.google.com/maps-platform/">Google's Cloud Platform</a>.</p>

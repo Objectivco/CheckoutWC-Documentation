@@ -18,7 +18,7 @@ cats: Features
 <p><strong>Enable AJAX Add to Cart</strong></p>
 <p>Turns on AJAX add to cart on archive and single product pages.</p>
 <p><strong>Enable Order Bumps</strong></p>
-<p>Turn on to display <a href="https://kb.checkoutwc.com/article/126-order-bumps">Order Bumps</a> that are set to display below cart items.</p>
+<p>Turn on to display <a href="https://cfw.test/documentation/order-bumps">Order Bumps</a> that are set to display below cart items.</p>
 <p><strong>Enable Coupons</strong></p>
 <p>Turn on to allow customers to enter a coupon in the Side Cart.</p>
 <p><strong>Enable Free Shipping Progress Bar</strong></p>

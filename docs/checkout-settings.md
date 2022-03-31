@@ -24,11 +24,11 @@ cats: Configuration
 </ul>
 <p>This feature is available to <strong>Plus</strong>, <strong>Pro</strong>, and <strong>Agency</strong> license holders.</p>
 <h2>Order Review Step</h2>
-<p>For more information on Order Review Step, <a href="https://kb.checkoutwc.com/article/119-how-to-add-order-review-step">see our guide here.</a></p>
-<h2><a href="https://kb.checkoutwc.com/article/119-how-to-add-order-review-step"></a>Address Autocomplete</h2>
-<p>For more information on Address Autocomplete, <a href="https://kb.checkoutwc.com/article/72-how-to-enable-address-autocomplete">see our guide here.</a></p>
+<p>For more information on Order Review Step, <a href="https://cfw.test/documentation/how-to-add-order-review-step">see our guide here.</a></p>
+<h2><a href="https://cfw.test/documentation/how-to-add-order-review-step"></a>Address Autocomplete</h2>
+<p>For more information on Address Autocomplete, <a href="https://cfw.test/documentation/how-to-enable-address-autocomplete">see our guide here.</a></p>
 <h2>SmartyStreets Address Validation</h2>
-<p>For more information on SmartyStreets Address Validation, <a href="https://kb.checkoutwc.com/article/127-smartystreets-address-validation">see our guide here.</a></p>
+<p>For more information on SmartyStreets Address Validation, <a href="https://cfw.test/documentation/smartystreets-address-validation">see our guide here.</a></p>
 <h2>Mobile Options</h2>
 <p>Options that only affect the mobile view.</p>
 <h3>Mobile Coupon Field</h3>

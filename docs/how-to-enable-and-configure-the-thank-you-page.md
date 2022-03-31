@@ -32,8 +32,8 @@ cats: Features
 <p>To enable the map, you need to toggle the setting and provide a <strong>Google API Key</strong>.</p>
 <p>To enable the setting, toggle 'Enable map embed' under Settings &gt; CheckoutWC &gt; General:</p>
 <p><img src="https://s3.amazonaws.com/helpscout.net/docs/assets/5bdde2822c7d3a01757ac42e/images/5dc08b2904286364bc9152ab/file-NG1Q5qVz6Q.png" alt="" /></p>
-<p>The Google API Key is shared with the <a href="https://kb.checkoutwc.com/article/72-how-to-enable-address-autocomplete">Address Autocomplete</a> setting. If you already have Address Autocomplete enabled, this will save a bit of time.</p>
-<p>Configuring Google API Keys can be a bit tedious, to help guide you in the process we have created a separate doc: <a href="https://kb.checkoutwc.com/article/86-how-to-get-and-configure-your-google-api-key">How To Get and Configure Your Google API Key</a></p>
+<p>The Google API Key is shared with the <a href="https://cfw.test/documentation/how-to-enable-address-autocomplete">Address Autocomplete</a> setting. If you already have Address Autocomplete enabled, this will save a bit of time.</p>
+<p>Configuring Google API Keys can be a bit tedious, to help guide you in the process we have created a separate doc: <a href="https://cfw.test/documentation/how-to-get-and-configure-your-google-api-key">How To Get and Configure Your Google API Key</a></p>
 <h2>Step 4: Configure Order Status Icons (Optional)</h2>
 <p>The order status row allows you to include an icon for each order status as seen here:</p>
 <p><img src="https://s3.amazonaws.com/helpscout.net/docs/assets/5bdde2822c7d3a01757ac42e/images/5dc0890a2c7d3a7e9ae37e12/file-ipoHVJWthV.png" alt="" /></p>

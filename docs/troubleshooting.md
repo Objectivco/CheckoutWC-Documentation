@@ -8,7 +8,7 @@ cats: Getting Started,Troubleshooting
 <p>Below is a general guide to troubleshooting problems. If you encounter a problem, follow these steps before reaching out to our support team (it will save time in the long run!)</p>
 <h2>Step 1: Update your plugins</h2>
 <p>If you're using outdated versions of WooCommerce, WooCommerce plugins, or CheckoutWC the first course of action is to update these plugins to their latest version.</p>
-<p>In many cases, the bug you are encountering <a href="https://kb.checkoutwc.com/article/50-change-log">may have already been fixed.</a></p>
+<p>In many cases, the bug you are encountering <a href="https://cfw.test/documentation/change-log">may have already been fixed.</a></p>
 <h2>Step 2: Make sure you're using a supported checkout field editor (if any)</h2>
 <p>We support the <a href="https://woocommerce.com/products/woocommerce-checkout-field-editor/">official Checkout Field Editor</a> plugin from WooCommerce.</p>
 <p>Most other checkout field editor plugins will cause problems - if you're having a an issue, it's always a good idea to try deactivating these types of plugins first.</p>
