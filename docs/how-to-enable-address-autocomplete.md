@@ -12,7 +12,7 @@ cats: Features
     If you have a <strong>Pro</strong> (5 Sites) or <strong>Agency</strong>&nbsp;(150 Sites) license, you can enable Address Autocomplete in&nbsp;<strong>WP Admin</strong>&nbsp;&gt;&nbsp;<strong>CheckoutWC</strong> &gt; <strong>Checkout.</strong>
   </p>
   <p>
-    Configuring Google API Keys can be a bit tedious, to help guide you in the process we have created a separate doc: <a href="https://cfw.test/documentation/how-to-get-and-configure-your-google-api-key">How To Get and Configure Your Google API Key</a>
+    Configuring Google API Keys can be a bit tedious, to help guide you in the process we have created a separate doc: <a href="https://cfw.staging.objectiv.co/documentation/how-to-get-and-configure-your-google-api-key">How To Get and Configure Your Google API Key</a>
   </p>
   <p>
     <img src="https://s3.amazonaws.com/helpscout.net/docs/assets/5bdde2822c7d3a01757ac42e/images/5d24fe9c2c7d3a2ec4bea24a/file-2gWBXlq3wr.png" />

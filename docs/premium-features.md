@@ -12,7 +12,7 @@ cats: Configuration
     Cart Editing
   </h2>
   <p>
-    For more information on cart editing, see <a href="https://cfw.test/documentation/how-to-enable-cart-editing" target="_blank">How To Enable Cart Editing</a>.
+    For more information on cart editing, see <a href="https://cfw.staging.objectiv.co/documentation/how-to-enable-cart-editing" target="_blank">How To Enable Cart Editing</a>.
   </p>
   <h2>
     Cart Editing Empty Cart Redirect
@@ -27,19 +27,19 @@ cats: Configuration
     Order Pay
   </h2>
   <p>
-    For more information on configuring the Order Pay page, see <a href="https://cfw.test/documentation/how-to-enable-order-pay-support" target="_blank">How To Enable Order Pay Support</a>.
+    For more information on configuring the Order Pay page, see <a href="https://cfw.staging.objectiv.co/documentation/how-to-enable-order-pay-support" target="_blank">How To Enable Order Pay Support</a>.
   </p>
   <h2>
     Thank You Page
   </h2>
   <p>
-    For more information on enabling the Thank You page template, see <a href="https://cfw.test/documentation/how-to-enable-and-configure-the-thank-you-page" target="_blank">How to Enable and Configure the Thank You Page.</a>
+    For more information on enabling the Thank You page template, see <a href="https://cfw.staging.objectiv.co/documentation/how-to-enable-and-configure-the-thank-you-page" target="_blank">How to Enable and Configure the Thank You Page.</a>
   </p>
   <h2>
     Address Autocomplete
   </h2>
   <p>
-    For more information on enabling the address autocomplete feature, see <a href="https://cfw.test/documentation/how-to-enable-address-autocomplete" target="_blank">How To Enable Address Autocomplete</a>.
+    For more information on enabling the address autocomplete feature, see <a href="https://cfw.staging.objectiv.co/documentation/how-to-enable-address-autocomplete" target="_blank">How To Enable Address Autocomplete</a>.
   </p>
   <h2>
     User Matching
@@ -54,11 +54,11 @@ cats: Configuration
     Order Review Step
   </h3>
   <p>
-    For more information about the Order Review Step, see <a href="https://cfw.test/documentation/how-to-add-order-review-step" target="_blank">How to Add An Order Review Step</a>
+    For more information about the Order Review Step, see <a href="https://cfw.staging.objectiv.co/documentation/how-to-add-order-review-step" target="_blank">How to Add An Order Review Step</a>
   </p>
   <h2>
     PHP Snippets
   </h2>
   <p>
-    For more information on adding custom PHP snippets, see <a href="https://cfw.test/documentation/how-to-add-a-custom-php-snippet" target="_blank">How To Add a Custom PHP Snippet</a>.
+    For more information on adding custom PHP snippets, see <a href="https://cfw.staging.objectiv.co/documentation/how-to-add-a-custom-php-snippet" target="_blank">How To Add a Custom PHP Snippet</a>.
   </p>

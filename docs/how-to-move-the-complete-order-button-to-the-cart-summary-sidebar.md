@@ -15,7 +15,7 @@ cats: How To
     We now recommend using our Order Review Step feature. More information about configuration is here:
   </p>
   <p>
-    <a href="https://cfw.test/documentation/how-to-add-order-review-step" target="_blank">How to Add An Order Review Step</a>
+    <a href="https://cfw.staging.objectiv.co/documentation/how-to-add-order-review-step" target="_blank">How to Add An Order Review Step</a>
   </p>
   <h2>
     OLD METHOD (CheckoutWC 3.x and earlier)
@@ -36,7 +36,7 @@ cats: How To
     This is best paired with using this technique:&nbsp;
   </p>
   <p>
-    <a href="https://cfw.test/documentation/how-to-force-cart-summary-to-stay-expanded-on-mobile" target="_blank">How To Force Cart Summary To Stay Expanded On Mobile</a>
+    <a href="https://cfw.staging.objectiv.co/documentation/how-to-force-cart-summary-to-stay-expanded-on-mobile" target="_blank">How To Force Cart Summary To Stay Expanded On Mobile</a>
   </p>
   <h2>
     How to Center the Complete Order Button

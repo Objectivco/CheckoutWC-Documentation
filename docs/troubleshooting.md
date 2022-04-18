@@ -18,7 +18,7 @@ cats: Getting Started,Troubleshooting
     If you're using outdated versions of WooCommerce, WooCommerce plugins, or CheckoutWC the first course of action is to update these plugins to their latest version.
   </p>
   <p>
-    In many cases, the bug you are encountering <a href="https://cfw.test/documentation/change-log">may have already been fixed.</a>
+    In many cases, the bug you are encountering <a href="https://cfw.staging.objectiv.co/documentation/change-log">may have already been fixed.</a>
   </p>
   <h2>
     Step 2: Make sure you're using a supported checkout field editor (if any)

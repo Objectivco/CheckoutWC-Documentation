@@ -30,7 +30,7 @@ cats: Configuration
     Php Snippets
   </h4>
   <p>
-    For information about Php Snippets, <a href="https://cfw.test/documentation/how-to-add-a-custom-php-snippet">please see this document</a>.
+    For information about Php Snippets, <a href="https://cfw.staging.objectiv.co/documentation/how-to-add-a-custom-php-snippet">please see this document</a>.
   </p>
   <h2>
     Integrations

@@ -10,9 +10,9 @@ cats: How To
   </p>
   <ol>
     <li>
-      <a href="https://cfw.test/documentation/how-to-enable-address-autocomplete" target="_blank">Address Autocomplete</a>
+      <a href="https://cfw.staging.objectiv.co/documentation/how-to-enable-address-autocomplete" target="_blank">Address Autocomplete</a>
     </li>
-    <li>Map Embed on the <a href="https://cfw.test/documentation/how-to-enable-and-configure-the-thank-you-page" target="_blank">Thank You Page</a>
+    <li>Map Embed on the <a href="https://cfw.staging.objectiv.co/documentation/how-to-enable-and-configure-the-thank-you-page" target="_blank">Thank You Page</a>
     </li>
   </ol>
   <p>

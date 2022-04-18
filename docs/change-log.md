@@ -6,6 +6,100 @@ cats: Developers
 
 
   <p>
+    <strong>Version 7.1.8 - 2022.04.18</strong>
+  </p>
+  <ul>
+    <li>New - Added new Cart Summary Link color setting
+    </li>
+    <li>New - Added setting to display sale prices in cart and checkout cart summary.
+    </li>
+    <li>New - It is now possible to use a WooCommerce Product Bundle that contains variations as an order bump. The default variation values for each bundled product are used.&nbsp;
+    </li>
+    <li>Improved - Improved how product bundles are styled in the side cart and checkout cart summary
+    </li>
+    <li>Fix - Fix setting that appeared erroneously when side cart is disabled.
+    </li>
+    <li>Fix - Change label of cart item quantity color settings to add clarity to what they style.
+    </li>
+    <li>Fix - Fix issue where quantity stepper wasn't available in side cart unless cart editing at checkout was enabled.
+    </li>
+    <li>Fix - Fix issue where there were duplicate validators during checkout submission
+    </li>
+    <li>Fix - Attempt to fix race condition that caused the postal code validation to show an error message after correct postal code was entered
+    </li>
+    <li>Fix - Fix bug in admin where publishing an order bump triggered before unload alert
+    </li>
+    <li>Fix - Tweak our side cart coupon apply code to better match core
+    </li>
+  </ul>
+  <p>
+    <strong>Version 7.1.7 - 2022.04.14</strong>
+  </p>
+  <ul>
+    <li>Improved - Removed some unnecessary files and compressed some others to reduce build size 30%.
+    </li>
+    <li>Dev - Added cfw_show_klarna_checkout_express_button filter to allow hiding Klarna Checkout express button.
+    </li>
+    <li>Fix - Don't allow quantity of order bumps to be changed.
+    </li>
+    <li>Fix - Fix issue where elements of checkout page were unblocked during an update.
+    </li>
+    <li>Fix - Fix WooCommerce Gift Cards field in Cart Summary sidebar.
+    </li>
+    <li>Fix - Get rid of duplicative events that caused multiple calls to zip code autocomplete API.
+    </li>
+    <li>Fix - Fix issue with express checkout buttons being hidden that were active.
+    </li>
+    <li>Fix - Fix issue with Checkout Field Editor that caused 50% width fields to be rendered incorrectly.
+    </li>
+    <li>Fix - Fix issue that caused address field changes to apply on my account page.
+    </li>
+    <li>Fix - Allow country field to be removed with Checkout Field Editor without causing postal code validation errors.
+    </li>
+    <li>Fix - Fix JS error with Braintree for WooCommerce (Payment Plugins) gateway.
+    </li>
+  </ul>
+  <p>
+    <strong>Version 7.1.6 - 2022.04.09&nbsp;</strong>
+  </p>
+  <ul>
+    <li>Fix - Override Braintree for WooCommerce Google Pay button fill mode.
+    </li>
+    <li>Fix - Change how we handle empty Braintree for WooCommerce to be a bit safer.
+    </li>
+  </ul>
+  <p>
+    <strong>Version 7.1.5 - 2022.04.08</strong>
+  </p>
+  <ul>
+    <li>New - Added setting to show Side Cart continue shopping button
+    </li>
+    <li>Dev - Added cfw_before_side_cart_totals action
+    </li>
+    <li>Dev - Added cfw_disable_side_cart_auto_open filter
+    </li>
+    <li>Dev - Added cfw_login_modal_last_password_link filter
+    </li>
+    <li>Fix - Fix logic for check create account checkbox by default setting
+    </li>
+    <li>Fix - Fix potential PHP warnings
+    </li>
+    <li>Fix - Fix styling of promo code when normal/non-floating labels are enabled
+    </li>
+    <li>Fix - Fix styling of lost password link
+    </li>
+    <li>Fix - Fix bug that caused continue shopping button to appear at the bottom of regular thank you page template
+    </li>
+    <li>Fix - Fix bug where logo was not visible using Klarna Checkout with the Copify theme
+    </li>
+    <li>Fix - Prevent account user name from sneaking into the account fields at checkout
+    </li>
+    <li>Fix - Non-floating labels can now wrap to the next line
+    </li>
+    <li>Fix - Fix issue where uninitiated Braintree for WooCommerce payment request buttons such as Apple Pay still showed up when not available
+    </li>
+  </ul>
+  <p>
     <strong>Version 7.1.4 - 2022.04.03</strong>
   </p>
   <ul>
@@ -325,7 +419,7 @@ cats: Developers
     Important: This is a MAJOR release. Please use caution when updating. There were over 360 code changes in this release with some substantial changes to underlying functionality.&nbsp;
   </p>
   <p>
-    This release removes a number of hooks and filters that are no longer needed but could impact your site if you or your developer wrote custom code to modify your CheckoutWC pages. Before updating, please confirm that you aren't using <a href="https://cfw.test/documentation/removed-action-hooks-and-filters-in-7-0">any of these actions or filters in your custom code</a>. (Most likely you aren't using these hooks, but please check first.)
+    This release removes a number of hooks and filters that are no longer needed but could impact your site if you or your developer wrote custom code to modify your CheckoutWC pages. Before updating, please confirm that you aren't using <a href="https://cfw.staging.objectiv.co/documentation/removed-action-hooks-and-filters-in-7-0">any of these actions or filters in your custom code</a>. (Most likely you aren't using these hooks, but please check first.)
   </p>
   <p>
     <em>Please backup your site before updating and test on a staging site first BEFORE updating your live site.</em>
@@ -1018,7 +1112,7 @@ cats: Developers
     This is a pretty big release!&nbsp; <strong>As always, we recommend testing on a staging site before updating your live site!</strong>
   </p>
   <ul>
-    <li>New - Added new address autocomplete service - <a href="https://cfw.test/documentation/fetchify-address-autocomplete">Fetchify</a>!
+    <li>New - Added new address autocomplete service - <a href="https://cfw.staging.objectiv.co/documentation/fetchify-address-autocomplete">Fetchify</a>!
     </li>
     <li>New - Filter WooCommerce Admin orders screen by whether the order contains Order Bumps.
     </li>
@@ -1087,7 +1181,7 @@ cats: Developers
     <strong>Version 5.2.2 - 2021.06.14</strong>
   </p>
   <ul>
-    <li>Hotfix - Fixes for Avada 7.4. <a href="https://cfw.test/documentation/avada-template-layout-problems">PLEASE READ THIS DOC BEFORE CONTACTING SUPPORT.</a>
+    <li>Hotfix - Fixes for Avada 7.4. <a href="https://cfw.staging.objectiv.co/documentation/avada-template-layout-problems">PLEASE READ THIS DOC BEFORE CONTACTING SUPPORT.</a>
     </li>
   </ul>
   <p>
@@ -1148,7 +1242,7 @@ cats: Developers
     <strong>Version 5.1.0 - 2021.06.04</strong>
   </p>
   <ul>
-    <li>New! Order Bumps can now be used as Upsells. Check out our documentation here: <a href="https://cfw.test/documentation/order-bumps">https://kb.checkoutwc.com/article/126-order-bumps</a>
+    <li>New! Order Bumps can now be used as Upsells. Check out our documentation here: <a href="https://cfw.staging.objectiv.co/documentation/order-bumps">https://kb.checkoutwc.com/article/126-order-bumps</a>
     </li>
     <li>New - Support for WooCommerce Pakettikauppa
     </li>
@@ -2616,7 +2710,7 @@ cats: Developers
     <strong>Version 2.42.0 - 2020.02.08</strong>
   </p>
   <ul>
-    <li>New: Support for <a href="https://cfw.test/documentation/permit-elementor-styles-and-scripts-on-the-checkout-page">Elementor Pro!</a>
+    <li>New: Support for <a href="https://cfw.staging.objectiv.co/documentation/permit-elementor-styles-and-scripts-on-the-checkout-page">Elementor Pro!</a>
     </li>
     <li>New: Support for WPC Product Bundles
     </li>
@@ -2743,7 +2837,7 @@ cats: Developers
     <strong>Before updating your live site, PLEASE TEST THOROUGHLY.</strong> We don't want any of our customers to lose sales during this important season.
   </p>
   <ul>
-    <li>New: You can now use Checkout Field Editor to modify your billing and shipping address fields. We still think most stores should leave this alone, but this makes it much easier to add custom address fields. We also <a href="https://cfw.test/documentation/how-to-add-a-custom-field">updated our documentation</a>. This is disabled by default to prevent issues with existing stores.
+    <li>New: You can now use Checkout Field Editor to modify your billing and shipping address fields. We still think most stores should leave this alone, but this makes it much easier to add custom address fields. We also <a href="https://cfw.staging.objectiv.co/documentation/how-to-add-a-custom-field">updated our documentation</a>. This is disabled by default to prevent issues with existing stores.
     </li>
     <li>New: Added support for&nbsp;NIF (Num. de Contribuinte PortuguÃªs) for WooCommerce
     </li>
@@ -2837,7 +2931,7 @@ cats: Developers
     <strong>Version 2.39.0 - 2019.11.06</strong>
   </p>
   <ul>
-    <li>ðŸŽ‰&nbsp;NEW PREMIUM FEATURE: Thank You Page - This highly requested feature allows you to replace your ugly WooCommerce thank you page with a Shopify style thank you page, complete with map embedding. <a href="https://cfw.test/documentation/how-to-enable-and-configure-the-thank-you-page">Details here.</a>
+    <li>ðŸŽ‰&nbsp;NEW PREMIUM FEATURE: Thank You Page - This highly requested feature allows you to replace your ugly WooCommerce thank you page with a Shopify style thank you page, complete with map embedding. <a href="https://cfw.staging.objectiv.co/documentation/how-to-enable-and-configure-the-thank-you-page">Details here.</a>
     </li>
     <li>Improved: Added filters for every return / continue button.
     </li>
@@ -2901,7 +2995,7 @@ cats: Developers
     </li>
     <li>Improved: Refactored JS compatibility factory.
     </li>
-    <li>Improved: Bypass flag is now comprehensive. <a href="https://cfw.test/documentation/how-to-bypass-checkoutwc-for-testing">More info.</a>
+    <li>Improved: Bypass flag is now comprehensive. <a href="https://cfw.staging.objectiv.co/documentation/how-to-bypass-checkoutwc-for-testing">More info.</a>
     </li>
     <li>Fix: Fix edge case bug where PHP fatal error was possible with PayPal Checkout in one install.
     </li>
@@ -3018,7 +3112,7 @@ cats: Developers
     <strong>Version 2.35.0 - 2019.09.06</strong>
   </p>
   <ul>
-    <li>Improved: Added filter cfw_header_home_url to allow changing the home URL link in the header. <a href="https://cfw.test/documentation/how-to-change-the-header-link-url">More information.</a>
+    <li>Improved: Added filter cfw_header_home_url to allow changing the home URL link in the header. <a href="https://cfw.staging.objectiv.co/documentation/how-to-change-the-header-link-url">More information.</a>
     </li>
     <li>Improved: Added the ability to adjust cart item quantity over 10. It now prompts the user to enter their desired quantity when selecting '10+'.&nbsp;
     </li>
@@ -3035,7 +3129,7 @@ cats: Developers
   <ul>
     <li>New: Added support for Braintree for WooCommerce: <a href="https://wordpress.org/plugins/woo-payment-gateway/">https://wordpress.org/plugins/woo-payment-gateway/</a>
     </li>
-    <li>Improved: Add the ability to restrict address autocomplete to specific countries: <a href="https://cfw.test/documentation/how-to-add-country-restrictions-to-address-autocomplete">https://kb.checkoutwc.com/article/79-how-to-add-country-restrictions-to-address-autocomplete</a>
+    <li>Improved: Add the ability to restrict address autocomplete to specific countries: <a href="https://cfw.staging.objectiv.co/documentation/how-to-add-country-restrictions-to-address-autocomplete">https://kb.checkoutwc.com/article/79-how-to-add-country-restrictions-to-address-autocomplete</a>
     </li>
     <li>Fix: Fix bug with Smart Send
     </li>
@@ -3224,7 +3318,7 @@ cats: Developers
     <strong>Version 2.31.0 - 2019.07.18</strong>
   </p>
   <ul>
-    <li>ðŸ¾ NEW: Added support for order-pay checkout endpoint. Disabled by default. <a href="https://cfw.test/documentation/how-to-enable-order-pay-support">More information here.</a>
+    <li>ðŸ¾ NEW: Added support for order-pay checkout endpoint. Disabled by default. <a href="https://cfw.staging.objectiv.co/documentation/how-to-enable-order-pay-support">More information here.</a>
     </li>
     <li>Improved: Refactored template management and loading classes.
     </li>
@@ -3311,7 +3405,7 @@ cats: Developers
     <strong>Version 2.27.0 - 2019.07.09</strong>
   </p>
   <ul>
-    <li>ðŸŽ‰ NEW: Address Autocomplete is here! Customers can now quickly and accurately locate their address using Google Maps.&nbsp;<strong>Requires a Growth or Agency license to enable.&nbsp;</strong><a href="https://cfw.test/documentation/how-to-enable-address-autocomplete">More information.</a>
+    <li>ðŸŽ‰ NEW: Address Autocomplete is here! Customers can now quickly and accurately locate their address using Google Maps.&nbsp;<strong>Requires a Growth or Agency license to enable.&nbsp;</strong><a href="https://cfw.staging.objectiv.co/documentation/how-to-enable-address-autocomplete">More information.</a>
     </li>
     <li>Fix: Fixed issue where WooCommerce Extra Checkout Fields for Brazil removed the phone fields.&nbsp;
     </li>
@@ -3398,7 +3492,7 @@ cats: Developers
     <strong>Version 2.24.0 - 06/26/2019</strong>
   </p>
   <ul>
-    <li>ðŸŽ‰ NEW: Cart editing is here! Customers can now adjust the quantity or remove cart items from checkout.&nbsp;<strong>Requires a Growth or Agency license to enable.&nbsp;</strong><a href="https://cfw.test/documentation/how-to-enable-cart-editing">More information.</a>
+    <li>ðŸŽ‰ NEW: Cart editing is here! Customers can now adjust the quantity or remove cart items from checkout.&nbsp;<strong>Requires a Growth or Agency license to enable.&nbsp;</strong><a href="https://cfw.staging.objectiv.co/documentation/how-to-enable-cart-editing">More information.</a>
     </li>
     <li>Improved: Account exists AJAX call is now throttled to prevent waste of server resources.
     </li>
@@ -3427,7 +3521,7 @@ cats: Developers
     <strong>Version 2.23.0 - 06/21/2019</strong>
   </p>
   <ul>
-    <li>New: Added&nbsp;<strong>Cart Summary Mobile Label</strong>&nbsp;setting to make it easier to override the mobile cart link label. <a href="https://cfw.test/documentation/how-to-change-show-order-summary-text-on-mobile-cart">More information.</a>
+    <li>New: Added&nbsp;<strong>Cart Summary Mobile Label</strong>&nbsp;setting to make it easier to override the mobile cart link label. <a href="https://cfw.staging.objectiv.co/documentation/how-to-change-show-order-summary-text-on-mobile-cart">More information.</a>
     </li>
     <li>Improved: Added preliminary support for WooCommerce Address Validation with SmartyStreets. Implementation has some glitches, but this is a start.
     </li>
@@ -3622,7 +3716,7 @@ cats: Developers
     This release contains some changes to field labels and placeholders. All optional fields now include "(optional)" at the end of the placeholder and label. This is in keeping with best practices.&nbsp;Also, we're using the native WooCommerce label for address_2, so instead of the abbreviation "Apt" it's now spelled out "Apartment".&nbsp;
   </p>
   <p>
-    Lastly, the address_2 field is now full width. This mitigates some display issues on smaller screens where the label was cut off. You can always remove this field entirely by <a href="https://cfw.test/documentation/how-to-remove-address-line-2">following this guide.</a>
+    Lastly, the address_2 field is now full width. This mitigates some display issues on smaller screens where the label was cut off. You can always remove this field entirely by <a href="https://cfw.staging.objectiv.co/documentation/how-to-remove-address-line-2">following this guide.</a>
   </p>
   <ul>
     <li>Improved: Consistently apply optional notice to all optional fields.
@@ -3959,7 +4053,7 @@ cats: Developers
     </li>
     <li>New: Add support for Pakkelabels
     </li>
-    <li>New: Added&nbsp;cfw_check_create_account_by_default filter so that you can set the default checked state of the create account checkbox. More information here: <a href="https://cfw.test/documentation/how-to-set-create-account-checkbox-to-unchecked-by-default">https://kb.checkoutwc.com/article/54-how-to-set-create-account-checkbox-to-unchecked-by-default</a>
+    <li>New: Added&nbsp;cfw_check_create_account_by_default filter so that you can set the default checked state of the create account checkbox. More information here: <a href="https://cfw.staging.objectiv.co/documentation/how-to-set-create-account-checkbox-to-unchecked-by-default">https://kb.checkoutwc.com/article/54-how-to-set-create-account-checkbox-to-unchecked-by-default</a>
     </li>
     <li>New: Added support for Facebook for WooCommerce
     </li>
@@ -4018,7 +4112,7 @@ cats: Developers
     </li>
     <li>Fix: PayPal buttons now load properly on the first page load on a new session.&nbsp;<em>PayPal buttons should seriously work all the time in every situation now.</em>If you had asked me as a child how much of my life I expected to be consumed with figuring out why PayPal buttons don't appear, I would have cried and said "What is a PayPal button?"
     </li>
-    <li>Improved: Moved form wraps so that they wrap the entire checkout page. This is necessary to allow moving the checkout button to the sidebar. More information: <a href="https://cfw.test/documentation/how-to-move-the-complete-order-button-to-the-cart-summary-sidebar">https://kb.checkoutwc.com/article/37-how-to-move-the-complete-order-button-to-the-cart-summary-sidebar</a>
+    <li>Improved: Moved form wraps so that they wrap the entire checkout page. This is necessary to allow moving the checkout button to the sidebar. More information: <a href="https://cfw.staging.objectiv.co/documentation/how-to-move-the-complete-order-button-to-the-cart-summary-sidebar">https://kb.checkoutwc.com/article/37-how-to-move-the-complete-order-button-to-the-cart-summary-sidebar</a>
     </li>
   </ul>
   <p>

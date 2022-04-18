@@ -15,7 +15,7 @@ cats: Features
     <li>
       <strong>Pro</strong> (10 Sites) or <strong>Agency</strong> (150 Sites) license
     </li>
-    <li>You must have <a href="https://cfw.test/documentation/how-to-enable-billing-and-shipping-phone-fields" target="_blank">configured WooCommerce to enable the phone field</a>.
+    <li>You must have <a href="https://cfw.staging.objectiv.co/documentation/how-to-enable-billing-and-shipping-phone-fields" target="_blank">configured WooCommerce to enable the phone field</a>.
     </li>
     <li>For validation, the phone field must be required.
     </li>
