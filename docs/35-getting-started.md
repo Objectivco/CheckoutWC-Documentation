@@ -84,10 +84,10 @@ status: published
     We have tested many such plugins. You can check out our list of confirmed integrations to verify that your plugin is listed:
   </p>
   <p>
-    <a href="https://www.checkoutwc.com/documentation/integrations">Integrations</a>
+    <a href="https://www.checkoutwc.com/documentation/overview-support-3rd-party-plugins-themes">Integrations</a>
   </p>
   <h2>
-    <a href="https://www.checkoutwc.com/documentation/integrations"></a>Testing
+    Testing
   </h2>
   <p>
     Your checkout page is crucial to your business. It's imperative that you thoroughly test your store before <a href="https://www.checkoutwc.com/documentation/general-settings">enabling it for all users</a>.
