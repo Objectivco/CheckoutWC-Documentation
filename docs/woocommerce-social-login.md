@@ -15,5 +15,5 @@ cats: 3rd Party Themes and Plugins
     <img src="https://s3.amazonaws.com/helpscout.net/docs/assets/5bdde2822c7d3a01757ac42e/images/5c4cd093042863543ccc439e/file-FLIlg6XOJC.png" />
   </p>
   <p>
-    The best hook to use is probably `cfw_checkout_after_login`, but you can use any of the hooks <a href="https://cfw.staging.objectiv.co/documentation/actions" target="_blank">in our documentation</a>.&nbsp;
+    The best hook to use is probably `cfw_checkout_after_login`, but you can use any of the hooks <a href="https://www.checkoutwc.com/documentation/actions" target="_blank">in our documentation</a>.&nbsp;
   </p>

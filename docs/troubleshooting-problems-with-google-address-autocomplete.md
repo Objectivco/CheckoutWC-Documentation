@@ -15,7 +15,7 @@ cats: Troubleshooting
     This indicates that there's a problem with your Google API Key. This isn't a CheckoutWC issue.&nbsp;
   </p>
   <p>
-    To determine what the problem is, <a href="https://cfw.staging.objectiv.co/documentation/how-to-access-your-browsers-developer-tools-for-debugging" target="_blank">open up your browser's developer tools</a> and check the console for a log entry like this:
+    To determine what the problem is, <a href="https://www.checkoutwc.com/documentation/how-to-access-your-browsers-developer-tools-for-debugging" target="_blank">open up your browser's developer tools</a> and check the console for a log entry like this:
   </p>
   <p>
     <img src="https://s3.amazonaws.com/helpscout.net/docs/assets/5bdde2822c7d3a01757ac42e/images/6202a73b68cd260cc2d38faf/file-APMTqS5on6.png" />

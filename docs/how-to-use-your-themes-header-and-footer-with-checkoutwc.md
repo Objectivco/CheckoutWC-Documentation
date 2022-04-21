@@ -92,6 +92,6 @@ cats: How To
       That will add a custom header with styling, as well as hide the default header.
     </p>
     <p>
-      If you would like to do something more custom, you can try your hand at creating a <a href="https://cfw.staging.objectiv.co/documentation/template-files" target="_blank">custom template</a>. <strong>However we really recommend you do this as a last resort.</strong> Maintaining a custom template will require a lot more time in the long run than using action hooks and you should be able to do anything you need to do with action hooks.
+      If you would like to do something more custom, you can try your hand at creating a <a href="https://www.checkoutwc.com/documentation/template-files" target="_blank">custom template</a>. <strong>However we really recommend you do this as a last resort.</strong> Maintaining a custom template will require a lot more time in the long run than using action hooks and you should be able to do anything you need to do with action hooks.
     </p>
   </div>

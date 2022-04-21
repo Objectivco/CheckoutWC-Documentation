@@ -37,11 +37,11 @@ cats: Configuration
     Cart Editing
   </h2>
   <p>
-    For more information on cart editing, <a href="https://cfw.staging.objectiv.co/documentation/how-to-enable-cart-editing">see our guide here.</a>
+    For more information on cart editing, <a href="https://www.checkoutwc.com/documentation/how-to-enable-cart-editing">see our guide here.</a>
   </p>
   <h2>
     Trust Badges
   </h2>
   <p>
-    For more information on trust badges, <a href="https://cfw.staging.objectiv.co/documentation/trust-badges">see our guide here.</a>
+    For more information on trust badges, <a href="https://www.checkoutwc.com/documentation/trust-badges">see our guide here.</a>
   </p>

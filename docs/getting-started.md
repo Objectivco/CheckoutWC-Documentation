@@ -15,13 +15,13 @@ cats: Getting Started
     Installation
   </h2>
   <p>
-    If you haven't installed CheckoutWC, let's do it. Standard rules apply, and if you need help you can check out our installation guide: <a href="https://cfw.staging.objectiv.co/documentation/installation">Installation</a>
+    If you haven't installed CheckoutWC, let's do it. Standard rules apply, and if you need help you can check out our installation guide: <a href="https://www.checkoutwc.com/documentation/installation">Installation</a>
   </p>
   <h2>
     Activate Your License Key
   </h2>
   <p>
-    Before you go any further, you should activate your license key on the <a href="https://cfw.staging.objectiv.co/documentation/general-settings">General Settings</a> page.&nbsp;
+    Before you go any further, you should activate your license key on the <a href="https://www.checkoutwc.com/documentation/general-settings">General Settings</a> page.&nbsp;
   </p>
   <p>
     A valid and activated license is required in order for the checkout template to display to non-admins and logged out users.&nbsp;
@@ -30,7 +30,7 @@ cats: Getting Started
     Deactivate Conflicting Plugins
   </h2>
   <p>
-    There are a couple of types of plugins that will not work with CheckoutWC by design. These include plugins that manipulate the checkout fields or layout of the checkout page. We do support the official <a href="https://woocommerce.com/products/woocommerce-checkout-field-editor/" target="_blank">Checkout Field Editor</a> plugin, and have <a href="https://cfw.staging.objectiv.co/documentation/how-to-add-a-custom-field" target="_blank">other options for adding custom fields as well</a>.
+    There are a couple of types of plugins that will not work with CheckoutWC by design. These include plugins that manipulate the checkout fields or layout of the checkout page. We do support the official <a href="https://woocommerce.com/products/woocommerce-checkout-field-editor/" target="_blank">Checkout Field Editor</a> plugin, and have <a href="https://www.checkoutwc.com/documentation/how-to-add-a-custom-field" target="_blank">other options for adding custom fields as well</a>.
   </p>
   <p>
     While we handle a few of these plugins by preventing them from breaking the checkout page, the best solution is to simply disable these plugins. (If you're on the live site, you'll obviously want to time this more carefully so that users don't experience any disruptions)
@@ -48,7 +48,7 @@ cats: Getting Started
     Pay special attention to the payment gateways. Make sure they are displaying properly and the way you would expect. If you're on a staging site, go ahead and put through a test order to confirm everything processes correctly.&nbsp;
   </p>
   <p>
-    If you have any problems at this step, check out our troubleshooting guide: <a href="https://cfw.staging.objectiv.co/documentation/troubleshooting">Troubleshooting</a>
+    If you have any problems at this step, check out our troubleshooting guide: <a href="https://www.checkoutwc.com/documentation/troubleshooting">Troubleshooting</a>
   </p>
   <h2>
     Design
@@ -57,10 +57,10 @@ cats: Getting Started
     Now that you have confirmed your checkout page is working correctly and activated your license, it's time to add your brand colors.&nbsp;
   </p>
   <p>
-    CheckoutWC ships with <a href="https://cfw.staging.objectiv.co/documentation/appearance-settings">multiple templates</a>, each with their own design options. You can activate each template and then refresh the checkout page to see how they affect the design and layout.
+    CheckoutWC ships with <a href="https://www.checkoutwc.com/documentation/appearance-settings">multiple templates</a>, each with their own design options. You can activate each template and then refresh the checkout page to see how they affect the design and layout.
   </p>
   <p>
-    Once you have picked a template, you can configure the design in <strong>WP Admin &gt; CheckoutWC &gt; Appearance &gt;&nbsp;Design</strong>. The options on this page are more fully explained in our <a href="https://cfw.staging.objectiv.co/documentation/appearance-settings">design documentation</a>, but for most stores you'll want to configure these options:
+    Once you have picked a template, you can configure the design in <strong>WP Admin &gt; CheckoutWC &gt; Appearance &gt;&nbsp;Design</strong>. The options on this page are more fully explained in our <a href="https://www.checkoutwc.com/documentation/appearance-settings">design documentation</a>, but for most stores you'll want to configure these options:
   </p>
   <ul>
     <li>Logo
@@ -83,13 +83,13 @@ cats: Getting Started
     We have tested many such plugins. You can check out our list of confirmed integrations to verify that your plugin is listed:
   </p>
   <p>
-    <a href="https://cfw.staging.objectiv.co/documentation/integrations">Integrations</a>
+    <a href="https://www.checkoutwc.com/documentation/integrations">Integrations</a>
   </p>
   <h2>
-    <a href="https://cfw.staging.objectiv.co/documentation/integrations"></a>Testing
+    <a href="https://www.checkoutwc.com/documentation/integrations"></a>Testing
   </h2>
   <p>
-    Your checkout page is crucial to your business. It's imperative that you thoroughly test your store before <a href="https://cfw.staging.objectiv.co/documentation/general-settings">enabling it for all users</a>.
+    Your checkout page is crucial to your business. It's imperative that you thoroughly test your store before <a href="https://www.checkoutwc.com/documentation/general-settings">enabling it for all users</a>.
   </p>
   <h4>
     <strong>You should also test before updating.</strong>&nbsp;

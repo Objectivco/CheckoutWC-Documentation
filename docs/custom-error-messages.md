@@ -6,7 +6,7 @@ cats: How To
 
 
   <p>
-    To add a custom error message for any checkout field you can use a custom <a href="https://cfw.staging.objectiv.co/documentation/how-to-add-a-custom-php-snippet">PHP snippet</a> to filter the checkout fields and add your custom 'data-parsley-error-message'&nbsp;which will be shown when the field contains an error.
+    To add a custom error message for any checkout field you can use a custom <a href="https://www.checkoutwc.com/documentation/how-to-add-a-custom-php-snippet">PHP snippet</a> to filter the checkout fields and add your custom 'data-parsley-error-message'&nbsp;which will be shown when the field contains an error.
   </p>
   <p>
     The following is an example for how to do this.

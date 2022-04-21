@@ -60,19 +60,19 @@ cats: Configuration
     Order Review Step
   </h2>
   <p>
-    For more information on Order Review Step, <a href="https://cfw.staging.objectiv.co/documentation/how-to-add-order-review-step">see our guide here.</a>
+    For more information on Order Review Step, <a href="https://www.checkoutwc.com/documentation/how-to-add-order-review-step">see our guide here.</a>
   </p>
   <h2>
-    <a href="https://cfw.staging.objectiv.co/documentation/how-to-add-order-review-step"></a>Address Autocomplete
+    <a href="https://www.checkoutwc.com/documentation/how-to-add-order-review-step"></a>Address Autocomplete
   </h2>
   <p>
-    For more information on Address Autocomplete, <a href="https://cfw.staging.objectiv.co/documentation/how-to-enable-address-autocomplete">see our guide here.</a>
+    For more information on Address Autocomplete, <a href="https://www.checkoutwc.com/documentation/how-to-enable-address-autocomplete">see our guide here.</a>
   </p>
   <h2>
     SmartyStreets Address Validation
   </h2>
   <p>
-    For more information on SmartyStreets Address Validation, <a href="https://cfw.staging.objectiv.co/documentation/smartystreets-address-validation">see our guide here.</a>
+    For more information on SmartyStreets Address Validation, <a href="https://www.checkoutwc.com/documentation/smartystreets-address-validation">see our guide here.</a>
   </p>
   <h2>
     Mobile Options

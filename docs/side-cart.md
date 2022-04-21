@@ -48,7 +48,7 @@ cats: Features
     <strong>Enable Order Bumps</strong>
   </p>
   <p>
-    Turn on to display <a href="https://cfw.staging.objectiv.co/documentation/order-bumps" target="_blank">Order Bumps</a> that are set to display below cart items.
+    Turn on to display <a href="https://www.checkoutwc.com/documentation/order-bumps" target="_blank">Order Bumps</a> that are set to display below cart items.
   </p>
   <p>
     <strong>Enable Coupons</strong>

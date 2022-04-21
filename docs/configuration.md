@@ -13,27 +13,27 @@ cats: Configuration
   </p>
   <ul>
     <li>
-      <a href="https://cfw.staging.objectiv.co/documentation/general-settings">General</a>
+      <a href="https://www.checkoutwc.com/documentation/general-settings">General</a>
     </li>
     <li>
-      <a href="https://cfw.staging.objectiv.co/documentation/checkout-settings">Checkout</a>
+      <a href="https://www.checkoutwc.com/documentation/checkout-settings">Checkout</a>
     </li>
     <li>
-      <a href="https://cfw.staging.objectiv.co/documentation/how-to-enable-order-pay-support">Order Pay</a>
+      <a href="https://www.checkoutwc.com/documentation/how-to-enable-order-pay-support">Order Pay</a>
     </li>
     <li>
-      <a href="https://cfw.staging.objectiv.co/documentation/how-to-enable-and-configure-the-thank-you-page">Thank You</a>
+      <a href="https://www.checkoutwc.com/documentation/how-to-enable-and-configure-the-thank-you-page">Thank You</a>
     </li>
     <li>
-      <a href="https://cfw.staging.objectiv.co/documentation/cart-summary">Cart Summary</a>
+      <a href="https://www.checkoutwc.com/documentation/cart-summary">Cart Summary</a>
     </li>
     <li>
-      <a href="https://cfw.staging.objectiv.co/documentation/order-bumps">Order Bumps</a>
+      <a href="https://www.checkoutwc.com/documentation/order-bumps">Order Bumps</a>
     </li>
     <li>
-      <a href="https://cfw.staging.objectiv.co/documentation/appearance-settings">Appearance</a>
+      <a href="https://www.checkoutwc.com/documentation/appearance-settings">Appearance</a>
     </li>
     <li>
-      <a href="https://cfw.staging.objectiv.co/documentation/advanced-settings">Advanced</a>
+      <a href="https://www.checkoutwc.com/documentation/advanced-settings">Advanced</a>
     </li>
   </ul>

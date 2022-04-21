@@ -78,10 +78,10 @@ cats: Features
     <img src="https://s3.amazonaws.com/helpscout.net/docs/assets/5bdde2822c7d3a01757ac42e/images/5dc08b2904286364bc9152ab/file-NG1Q5qVz6Q.png" />
   </p>
   <p>
-    The Google API Key is shared with the <a href="https://cfw.staging.objectiv.co/documentation/how-to-enable-address-autocomplete" target="_blank">Address Autocomplete</a> setting. If you already have Address Autocomplete enabled, this will save a bit of time.&nbsp;
+    The Google API Key is shared with the <a href="https://www.checkoutwc.com/documentation/how-to-enable-address-autocomplete" target="_blank">Address Autocomplete</a> setting. If you already have Address Autocomplete enabled, this will save a bit of time.&nbsp;
   </p>
   <p>
-    Configuring Google API Keys can be a bit tedious, to help guide you in the process we have created a separate doc: <a href="https://cfw.staging.objectiv.co/documentation/how-to-get-and-configure-your-google-api-key" target="_blank">How To Get and Configure Your Google API Key</a>
+    Configuring Google API Keys can be a bit tedious, to help guide you in the process we have created a separate doc: <a href="https://www.checkoutwc.com/documentation/how-to-get-and-configure-your-google-api-key" target="_blank">How To Get and Configure Your Google API Key</a>
   </p>
   <h2>
     Step 4: Configure Order Status Icons (Optional)
