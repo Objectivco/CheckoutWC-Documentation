@@ -133,7 +133,7 @@ status: published
           <a href="https://woocommerce.com/products/woocommerce-one-page-checkout/">WooCommerce One Page Checkout</a>
         </td>
         <td>
-          <a href="https://kb.checkoutwc.com/article/11-one-page-checkout">Documentation</a>
+          <a href="https://www.checkoutwc.com/documentation/how-to-enable-one-page-checkout/">Documentation</a>
         </td>
       </tr>
       <tr>

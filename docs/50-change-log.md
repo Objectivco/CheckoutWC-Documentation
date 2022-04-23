@@ -1243,7 +1243,7 @@ status: published
     <strong>Version 5.1.0 - 2021.06.04</strong>
   </p>
   <ul>
-    <li>New! Order Bumps can now be used as Upsells. Check out our documentation here: <a href="https://www.checkoutwc.com/documentation/order-bumps">https://kb.checkoutwc.com/article/126-order-bumps</a>
+    <li>New! Order Bumps can now be used as Upsells. Check out our documentation here: <a href="https://www.checkoutwc.com/documentation/order-bumps">https://www.checkoutwc.com/documentation/order-bumps/</a>
     </li>
     <li>New - Support for WooCommerce Pakettikauppa
     </li>
@@ -3130,7 +3130,7 @@ status: published
   <ul>
     <li>New: Added support for Braintree for WooCommerce: <a href="https://wordpress.org/plugins/woo-payment-gateway/">https://wordpress.org/plugins/woo-payment-gateway/</a>
     </li>
-    <li>Improved: Add the ability to restrict address autocomplete to specific countries: <a href="https://www.checkoutwc.com/documentation/how-to-add-country-restrictions-to-address-autocomplete">https://kb.checkoutwc.com/article/79-how-to-add-country-restrictions-to-address-autocomplete</a>
+    <li>Improved: Add the ability to restrict address autocomplete to specific countries: <a href="https://www.checkoutwc.com/documentation/how-to-add-country-restrictions-to-address-autocomplete">https://www.checkoutwc.com/documentation/how-to-add-country-restrictions-to-address-autocomplete</a>
     </li>
     <li>Fix: Fix bug with Smart Send
     </li>
@@ -3763,7 +3763,7 @@ status: published
     <strong>Version 2.16.1 - 04/26/2019</strong>
   </p>
   <p>
-    ðŸš¨IMPORTANT: This update includes an important fix that requires a small template change. <a href="https://kb.checkoutwc.com/article/66-upgrading-custom-templates-from-2-16-0-to-2-16-1">Please follow this guide to update your template after updating to 2.16.1.</a>
+    ðŸš¨IMPORTANT: This update includes an important fix that requires a small template change. Please follow this guide to update your template after updating to 2.16.1.
   </p>
   <ul>
     <li>Fix: WooCommerce 3.6 made a change to how customer data is loaded on the checkout page. Our attempts to fix this in 2.16.0 caused an issue with validation that caused a small number of stores to fail checkout submission for a fresh session in an incognito window. This is fixed now and we're very sorry for any disruptions this may have caused.&nbsp;
@@ -4054,7 +4054,7 @@ status: published
     </li>
     <li>New: Add support for Pakkelabels
     </li>
-    <li>New: Added&nbsp;cfw_check_create_account_by_default filter so that you can set the default checked state of the create account checkbox. More information here: <a href="https://www.checkoutwc.com/documentation/how-to-set-create-account-checkbox-to-unchecked-by-default">https://kb.checkoutwc.com/article/54-how-to-set-create-account-checkbox-to-unchecked-by-default</a>
+    <li>New: Added&nbsp;cfw_check_create_account_by_default filter so that you can set the default checked state of the create account checkbox. More information here: <a href="https://www.checkoutwc.com/documentation/how-to-set-create-account-checkbox-to-unchecked-by-default">https://www.checkoutwc.com/documentation/how-to-set-create-account-checkbox-to-unchecked-by-default</a>
     </li>
     <li>New: Added support for Facebook for WooCommerce
     </li>
@@ -4113,7 +4113,7 @@ status: published
     </li>
     <li>Fix: PayPal buttons now load properly on the first page load on a new session.&nbsp;<em>PayPal buttons should seriously work all the time in every situation now.</em>If you had asked me as a child how much of my life I expected to be consumed with figuring out why PayPal buttons don't appear, I would have cried and said "What is a PayPal button?"
     </li>
-    <li>Improved: Moved form wraps so that they wrap the entire checkout page. This is necessary to allow moving the checkout button to the sidebar. More information: <a href="https://www.checkoutwc.com/documentation/how-to-move-the-complete-order-button-to-the-cart-summary-sidebar">https://kb.checkoutwc.com/article/37-how-to-move-the-complete-order-button-to-the-cart-summary-sidebar</a>
+    <li>Improved: Moved form wraps so that they wrap the entire checkout page. This is necessary to allow moving the checkout button to the sidebar. More information: <a href="https://www.checkoutwc.com/documentation/how-to-move-the-complete-order-button-to-the-cart-summary-sidebar">https://www.checkoutwc.com/documentation/how-to-move-the-complete-order-button-to-the-cart-summary-sidebar</a>
     </li>
   </ul>
   <p>
@@ -4225,7 +4225,7 @@ status: published
     <strong>Version 2.5.0/2.5.1/2.5.2</strong>
   </p>
   <p>
-    âš&nbsp;ï¸ WARNING: If you are using a custom template, please <a href="https://kb.checkoutwc.com/article/32-upgrade-custom-templates-from-2-4-16-to-2-50">read this</a>BEFORE upgrading.&nbsp;âš&nbsp;ï¸
+    âš&nbsp;ï¸ WARNING: If you are using a custom template, please read this BEFORE upgrading.&nbsp;âš&nbsp;ï¸
   </p>
   <ul>
     <li>Remove tests from release build to reduce size.
